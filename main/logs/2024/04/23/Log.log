@@ -961,3 +961,521 @@ Response:
 
 
 <------------------------------------------------------->
+
+
+Date: 2024-04-23 12:13:48.353693
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLCV.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLCV.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:13:57.199326
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "extension": "png",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:13:57.383726
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:14:01.259038
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLCV.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLCV.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:14:05.197583
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "extension": "jpeg",
+    "file": "<FileStorage: 'fondoLinkedin.jpeg' ('image/jpeg')>",
+    "filename": "fondoLinkedin.jpeg",
+    "max_size": 5242880,
+    "size": 26039
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:14:05.244414
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:14:28.787465
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLfondoLinkedin.jpeg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLfondoLinkedin.jpeg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:16:46.167578
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLfondoLinkedin.jpeg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLfondoLinkedin.jpeg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:16:50.625946
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "extension": "png",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:16:50.666136
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:16:56.116837
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "extension": "jpeg",
+    "file": "<FileStorage: 'fondoLinkedin.jpeg' ('image/jpeg')>",
+    "filename": "fondoLinkedin.jpeg",
+    "max_size": 5242880,
+    "size": 26039
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:16:56.157496
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:17:38.049300
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLfondoLinkedin.jpeg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLfondoLinkedin.jpeg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:17:42.705307
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:17:42.749755
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:17:46.617793
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "jpeg",
+    "file": "<FileStorage: 'fondoLinkedin.jpeg' ('image/jpeg')>",
+    "filename": "fondoLinkedin.jpeg",
+    "max_size": 5242880,
+    "size": 26039
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:17:46.653113
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:18:18.229596
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.jpeg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.jpeg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:18:24.220845
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:18:24.263307
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:18:45.919665
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:18:45.967150
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->

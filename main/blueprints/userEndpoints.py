@@ -181,9 +181,12 @@ def updatePhone(username):
 def updateProfile(username):
     if 'profile' in request.files:
         try:
-            #Comprobamos que existe un archivo en usuarios
-            if os.path.exists("static/users/" + username):
-                os.remove("static/users/" + username)  # Eliminar el archivo antiguo
+            allowed_extensions = {'png', 'jpg', 'jpeg'}
+
+            for extension in allowed_extensions:
+                # Comprobamos que existe un archivo en usuarios
+                if os.path.exists("static/users/" + username + "." + extension):
+                    os.remove("static/users/" + username + "." + extension)
 
             file = request.files['profile']
             filename = file.filename
@@ -191,7 +194,6 @@ def updateProfile(username):
             if filename == '':  # Nombre de archivo vacio
                 return ret("El nombre del archivo no puede estar vacio", 400)
 
-            allowed_extensions = {'png', 'jpg', 'jpeg'}
             extension = filename.rsplit('.', 1)[1].lower()  # Obtener la extension del archivo
 
             if extension not in allowed_extensions:
@@ -205,11 +207,11 @@ def updateProfile(username):
             if size > max_size:
                 return ret("El tamaño maximo permitido es de 5MB", 413)
 
-            file.save("static/users/" + username+filename)  # Guardar el archivo en la carpeta users
+            file.save("static/users/" + username + "." + extension)
 
             try:
                 connector.client.FULL.Enterprises.update_one({"username": username},
-                                                       {"$set": {"profile": "static/users/" + username+filename}})
+                                                       {"$set": {"profile": "static/users/" + username + "." + extension}})
 
                 return ret("Foto del usuario " + username + " actualizada correctamente")
 

@@ -1,0 +1,36 @@
+
+
+Date: 2023-12-04 10:19:28.000392
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "e": "ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed,ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed,ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed, Timeout: 30s, Topology Description: <TopologyDescription id: 656d9627aa15061c14b9e5ab, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>, <ServerDescription ('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>, <ServerDescription ('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [Errno 11001] getaddrinfo failed')>]>"
+}
+Response:
+{   'error': 'ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [Errno 11001] '
+             'getaddrinfo '
+             'failed,ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [Errno '
+             '11001] getaddrinfo '
+             'failed,ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [Errno '
+             '11001] getaddrinfo failed, Timeout: 30s, Topology Description: '
+             '<TopologyDescription id: 656d9627aa15061c14b9e5ab, '
+             'topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription '
+             "('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) "
+             'server_type: Unknown, rtt: None, '
+             "error=AutoReconnect('ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: "
+             "[Errno 11001] getaddrinfo failed')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) "
+             'server_type: Unknown, rtt: None, '
+             "error=AutoReconnect('ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: "
+             "[Errno 11001] getaddrinfo failed')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) "
+             'server_type: Unknown, rtt: None, '
+             "error=AutoReconnect('ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: "
+             "[Errno 11001] getaddrinfo failed')>]>",
+    'result': 'Error al obtener el usuario phermidagomez@gmail.com',
+    'status': 500}
+
+
+<------------------------------------------------------->

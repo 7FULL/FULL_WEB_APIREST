@@ -1,0 +1,69 @@
+
+
+Date: 2023-11-03 09:02:29.301413
+Called: login
+Args:
+{
+    "username": "wsdf",
+    "password": "95dc795403b13aeb2a1d46661288f374cae9a4738cd5ca1c57f60adc9e9465f0",
+    "token": "03AFcWeA6n5AW8bt6APBUf8K3G5OVS6dYGvvMnpmYPJanp69ctnWIc7PFaxvyqFDV0VIu5DB8tFc6LpJBk1oF6zHtn6tpA8du_FZ9Gi5WVQY6U6-NFdWw3JpWUwb0IV21U-Xm444sFkawWZFahbN5NTHud750QpLh6XlfpU75AlP7NpTlCwUypCHcZ03hBYhEljIS5oSCLFjIenc0UJQu-w3fF3Y_lcdDH4fuHpDqFVVC1PzA3i5z9ABHkijrHOaX0D248INc5DiW5WEZsm_oN9IEFYTiIghiphzghQd5nMzs7OjQtILPf6w3Rba1dow9iJhbI6Lucxqn-mKLqzzlvjvhAp7wh1nbevpEYZqLO9StTGEtqOw-252MKu2fiKWvPVC0zyS-3b4cufptBh4DIXLmCR1Oefg1AHjbhqhhN0DtTmqgmkMK1AmneHWhuhOLBJTyvwKBswohUWIYEnxFkGPUouJ6jbHSPVzxR3rH8zzUxUBXASdkJtKX5vMtiJ9RJzqeg8zMV14r6-VEYOBpyLIdS8J9xAH68rrOBlcVOy9EUzhTlOYSUYskPDGdXpYxxN7t1i5Nlc4dPJGe948R9GKWEK1HWzpO2beGHiPK2ZdI9qNcaR8eCNijPicN3hp0DK82v7tKxMKb0DyUpD3D3j4mJJRcDQuSl9oScF7HY6xq29wKymDG5PFyE2klttLGJ5qLsSzMmxOzt_ySlxhvlXPmoOHLM2aM4Gax7fR-nga0WQUZ0Txj0DQcCKRMxptGspSEpexmL-rj52aAYW72kUqvUDWhnyyOmdCMZdbdixEhSV9wc5Lqh53FGMnSg5Xliu_gRJzh_y2uGRK3P22KcoYJIcHcXrkytWlv89u1Cd7TUMoKiuYavxXyU2SoC1v2BPtllv314_pgS1CL0DSr4avixjCBwHWGUy13zyS7Dnie-fYmJzamakoqW4Ex4KUs3Gdh_BwZ8UgE_fMm3NSDj3KBtMvKsk5X6FmQF3v1_nPCRfmbkrXUbUl7bIQUOA46wwi_lTePRdOVKLhnsPpynBRL1DRep6wORDeK71ykPzdiUONvYOd-9u-MTj2qwUjCiiixK2YbQjY5A5yL_kVTqHeF2gQKA55CJ1DUaY9zzfS-ZSCMPOsOwR1-TqrVquaUyIdqWDlTrThpU8Al7m-IOpJwXEVjSElK_lG7tHOwYLfrR-K6qmbtuU9ArbdoOS6LxkQjHaR3NO78gVNeBwddXbBze14YYNyQtz7LPFgDF-2_XyoGk6-xUNsXL-CxKNcp0o8ftrQgkqkqaqe5MdgvGhuga58GveUz8aws9f-tEeNhDl5wsEe5_kDjEK3JVnBS6VJRMisVzz57AcKTdYexU-YpWGLx7gLLi0QChysq78eZ3jabSAgd5OuxWq9QQQCvPlG9fNnusCU2hpuDq2ScFWxu6Yt7GfHw6h0u0bhXk_6rxgFUavZfNsuJUs3rPxZky4KOKjpRmAZffayN6JFlCeh-uC3pL-EeolSG0ynjv70xlAIYwMKMLCmI",
+    "response": "<Response [200]>",
+    "result": null
+}
+Response:
+{'error': 'Usuario o contraseña incorrectos', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-03 09:02:48.354357
+Called: login
+Args:
+{
+    "username": "0wer",
+    "password": "489cd5dbc708c7e541de4d7cd91ce6d0f1613573b7fc5b40d3942ccb9555cf35",
+    "token": "03AFcWeA5rxzuX0-2gi5F5-OBWOaX7kDmZCqpaeGwrA_DRucxvXVf0LBuQLBSqIhyCjIQVc2f554JbBc9HWHW4j5LN8LdVhPMucY-A-mS0IiAmc5AAYW727DFbwC-QeQ6b2_xf8qXF6670IWG0jx5tnEBYQ4U4gXCdME5iiXuKYBvVvKmKAPMaifwN0YziuiquDxQZyc5RUijj8GKiADCUQqN1Am4ZmjUy4FPvfCz3tiZ7KvVctow-xGny0r75_btCL8_hxci2tMr0-VPcc3oDgW8zBhYawoq3hz8YGHdPlUsXpXym669DzdNZg1FnK5LYrktxTOJUu8fseK_PX5esPSvkgzQOSg5LVM4jj6od0uzEQKD7wUTKbfqSmbVDzDPDqNZ3DDe8iiq8wF9w3m2IcxstmkWpmiNksPD7dgqB_H4Z-HIVgzksH6Ji8EzPKLpWDSRLU6tMsi9nklThZUz14K6UaJ0L4pim98Recmkru7Df06molMZvxlj120t4k_Iis1jXsMI5_JeHDa-4UUZHHZ2Wq6Iwz07uQB5gloOfUT_Bo2ikdUn3o_sLYqoZRgWBQmB_liZhfR34kobza7dsxl02_gvVeA_uPPj8b01YgJI6VTySDCrZjH6JS0T7hn9Fy_1x6nFxPy3BAz5_Kpz1RH70D0O3p2IhDCJYOhvZ-JmWhMsjZ30Wv2ZGNVjr-xTUCRf8MfodA5dE9UcyxCsu7Zk_EyVXuwiccOGBNhz_UClmtPLfERV65dRVuSpXLUbyqRE47tI_IDBqIT71ywWLNAIBlGtpGTAC0JTXOrIL15skZs3IotCo6S7FMI31dtPn7HColKoNCGZeUOHnzuUtwWSxp6iWPf2dh9-sZNg84l6zHYfJg3xQw-XxYQYSbqMf4C_5I6zDZgAMuwZt2yyO8RTgll0P9EiPlSjjS0hBFYOC3SdEYvlUKUrZwltXzw1sDxd5-PPLMP8QwQp7ilp5qIJu2H5yKlwV0tZJa0sAjlCG7l43g4KkldTdtXDBRg1komG8gOsrr1FVOMCSfgyaNg0dqbt2LF-4ehAVtUvTgCT3RkUGR5Q2DUxjrRPgVd2YJGyHQnPjkrRpHCFcXUFjPMOVW0Xn0nVHHFLq67eX_xj_D4ixmyTFpWSxtfv5Sz4Jn_RO2qn3J26lLwn2sbISysZQDKTGHmjWazFYcC0qcYdOhO2LL1cb9ZvoRIOeQKaATlZ4mLPOblid1NVNXPOX9m_0WdxmFAcsjCDLf7gZJZukG_E_cti0J4HRtS1nQY56Nwa8Ty9LOSguXKja-tDupmzLnqbL-OlYSTI6YnrGdjG-VzZFoxfNFQnyQ-y3TXdT8LFPsHm-nmzcLmiwIy9IJJiu3k5oGJxVs1qh-w_T-T4ApOdrYA8MSnFQBTAmvCtc_QVCI2N6vMtcyo1pZhMfIdIGtMvrw-Ktbhlttvh0EOEElqvbfz7Z9r9bcXUu4vig0cJyeAqL4Az6gHEBpdOg2ca3UbkLNT_UBnoQW7hvpdoqxfoO5Fp2E82UJtk5ovzHX3q64eJrm6N0",
+    "response": "<Response [200]>",
+    "result": null
+}
+Response:
+{'error': 'Usuario o contraseña incorrectos', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-03 09:21:44.064072
+Called: login
+Args:
+{
+    "username": "pi",
+    "password": "e7684b3d13dd994b4a93ea560a4fdb03cf6e642fdfd49e16cb7b8e69c48a39a0",
+    "token": "HFYXFlcghEdHpuQnlQT1tBTh0IATVhexIZa3wEaA46JiogLDYYKnpwC3t4MDVscDMzKhE6EhUWYxUeDEtwI1gSGAN1CwcGOUNheGZxVWBCIl14FwlqHSJlfXpmKQIWBQJnDRwFMzRpAU0SBn8RSk5EO0IhRkYofyBZL2Qucg80dH0Y",
+    "response": "<Response [200]>"
+}
+Response:
+{   'error': 'Creemos que eres un robot',
+    'result': {'error-codes': ['browser-error'], 'success': False},
+    'status': 498}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-03 10:58:23.541994
+Called: login
+Args:
+{
+    "username": "htuj",
+    "password": "d213ddf64a9bb5bd8ad0c7f48530d6946149243e9b06287b9e9cd1afba7bf8d4",
+    "token": "03AFcWeA6omb31MhrMyqD1YXizUAb26pe1mOhEgGyLGQG2qOeHr5fNvHlHYL1DMsmZWgooYQq-eV9xcT1G4aCdP66n1TFbZyndWwZX3jTdZ2qOH_E2ZdulBJtowm5960Mi4M5cFSXY3b0qDdj4kKfqpuOo8QEMSLIJQHp-xm9Em_2L2vBdj9PFk8vVwKFqBS5mjWTXp4SGlJ8V7F0HFQXkKFVja8pmKkDazG63K7IvglT-g1vHXd-oyKV13UntjvLGS1xJnXJTYk8DHH_KJcNRL0KZJjhwuJsSc7vuL_uoH-dmiNWK-B1GI1YCVMfpzy9-pTD-AvSaPEL8YgKWea28x0U27q5yrRwdfZSuVVnEU0PCrY03d8N7HDpZ5xeyUgv-KmciqPCFHukVcda8kw9aqgToUctMDG4o2hnMxv4GHD03Vl7-Yptt3s8hP4ZRRD7vRojomg2Rs7EP6k2FuwzZhS3T3DI3o7RyJMX8xMKqgYs5RdQXgChGlPql4SC5CHf7re_rSpuF7n6YdY0ALD8xN6sLZ85BCvK0UZ9ekqncuTH68CGGJCgzXU2BdArz5oZDqn-dl877Z034L2izXFk08r2K6EczBNN8S2OjK17aIB2g0apXWkj3HbvMKh7f4yBOlHJEOD4h2FCLaU5M_w-TpL4zfbYCaxHhLW2zrwUF2AAfNiNwKr3_lcsdMsuky5HlvhcZ30KVOoOrs2ESB0hN0uM0MYLxQgO4qekgDuuaJW2U-7QCBJaswuYbACLbj0dKo4QnDkizTZ4ia44OER6VpA1dKiHFy0qJgw0g9nBL-GzXILPzSdKrS8fSQCY6Z4YJAB3RGM3p3RjRuCgIlB6Y4yP21ouSsQh1vqjEakblxA34ikAAYpY81idS9Lrp1pyb-zf9h1Daigl_YOF2l5w6bbnvLJbESiQBE7wzNqswmCGCR8eBXtQhdc7CSthQRwd_Wt3bctsvVVS2o17uJG5ZSh-LjOxMftopcv3g1omMPgx2DSgVLx_jM6rAi5XaCZi5fs0VDcauUYkzVZQrZF3VbJOGpIxLIgz-RuO7dHsQLFKBal9MOCKv8Q6Ihoa24rvp_X_pC5jiCBwBVs093VE77wBzshCsAmacfPwwmYn8rG_Hkd__RMz8lUHaM7sF08Y1SzeEdzS8gNHurMcmTuNnaPczt-nnGf9SkVYj2axcKUQsvQFKDTcbMxSsin80Ax_QaFBmn1LuvJeC-2pSwUGBdb8O-rhtmdwXSKC5RFWBY2k4FcxjZj4ywQBa-wNHt0pSvUGnpDC2miO9rrX5ZOE8qNT5D8rPiKf4x-DA3qjy8rty-B85T_P-9VSxr9P68bzHnSmefMtAYpylq5Up8jXk-7djEn57oZih-H4d4b8sOXA4UWz4AKUFYKTeGMD5sCVsp7r5f_Cu1S022SwfqNN8qUexG9iD853eZ577cgEjZXjHxA8ubn9NbE2_DXEIBunLBUJDrs3ur7k__bYqtGIJpe1Kf5Y-q550zmZOz7ZshV4GERklKFtob4FTyGWE9YssvnSX2J94LkNx",
+    "response": "<Response [200]>",
+    "result": null
+}
+Response:
+{'error': 'Usuario o contraseña incorrectos', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->

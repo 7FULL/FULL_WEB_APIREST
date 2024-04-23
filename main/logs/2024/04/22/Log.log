@@ -1,0 +1,85 @@
+
+
+Date: 2024-04-22 12:25:16.705202
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": {
+        "_id": "64a1560c45e45e31becaad7c",
+        "username": "pi",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "11111111",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "logo (1).png",
+        "description": "adadad",
+        "token": "vCiW50WnaHzhKFAo",
+        "streamKey": "admin"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64a1560c45e45e31becaad7c',
+                  'description': 'adadad',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '11111111',
+                  'profile': 'logo (1).png',
+                  'status': 0,
+                  'streamKey': 'admin',
+                  'token': 'vCiW50WnaHzhKFAo',
+                  'username': 'pi'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-22 12:25:16.706202
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "streamKey": "Q7X30wis"
+}
+Response:
+{'error': '', 'result': 'Ya existe el usuario 7FULL', 'status': 409}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-22 12:25:45.178849
+Called: login
+Args:
+{
+    "username": "pi",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA70PiXeGurDqvoNRQ6i2F0k8t3rpcd8qTQBq6F0v487t5-CoiNDGxjBinLHj9H6tKEDXIPFlV7qmAb0RODBaWXaL35y1_sPlEmohkYU_hE0rqJ1GpGg_uXKYbLjuQgKpOboNbJaO81NNFkQzOAvEIDSdAiS2tTjy_XpnuXO0YLadFBVu1pq83QbUNfllqMeGQwlAk9am5yWtu7sb7CQzlnWHZ0GFnzczU9SijzQtiJp_ydhs9tSxWsmzRQ4be2LGKwv4FQTVwf7MjFFmLshBSUKlfWVTog15yxz_ufGc3Id8wdyFu-nvGEJXLAoOF2yMjD-OgfQAXf3bnoF7Z41LL1fgt1z-2sxzAGRB2vjavu9ujJIU3K6Y6VjsXyOMdtgQWCE1g-oALA1EPHoaElk_2rMovbjuysuIsFBuojzKtqXsH_1o9xgrLbi32y6TWkCGux9e8Wu0uoHB0XjcXKJO09Qk2dry15G0FmRtf3wsHkIlCPsM6Tpsj7102gvFlly1ovBun04WV20sUVAdhQEu3QxgVZclzTmAqVAnLGhynnJyP1jDmzfcN606XWOLjGTZflkoiP7mrXLbIMwoHKODgb_BwXXiLM261iTHQXR1vthWHIi9Udt5OPi5KF6j21g562-P80YuZ8PG5afIhnpalr2dydDIwxI1m6zcrMsiMRCJGhpwG-nygZl7qaTYzAonOgqVickbf-twTLr_lohJDI9gF_oCz3U932jrzHmwZ8pTnyMYnP1DJB9pUEE__w0l_QhR4dA4XP5CFsaz1nZEFmmAS4n60PdW7dfOHTvjONW7ks_xMr4OgtJlj99BAPNw4UyBJJEad9ZEJc5CCsfvmwEJWcwBCgpJOpvuJNXBwu5wAd_GdlaiCufauHaESgYvBICSxn1hq47axzwf6msXYtJY1r0dhtK5BvaAPMfmgPsSQ0z31hQyXt_J0E13YYeCkda45WKcbZd1eNMtYQefayoE__jWYS9bsF0L-nhyY1qrSxyGgj1JX_VxJReMlBx7BlJVDqs6PTMDfraZc9Wtvc_FbJZj-2HBm-fKD5QlFUB3gGd6Et5f4NRDjUY8FvIbNuc1isNL0IkY0tsvrW8QDiGhddFmuReLdjIOLfyLHMqdPNVjUDhCI0r5IzcfCd6t1r8jHX6Yc3ZIHXBMIcbnLU0JA5m1dqTWBWzyqiM47-fLjfxScQhoczMrFqREiLaXhwa8W3OnaQnWw4Zu6xhZe8SPCwkIBeTvVclsnSZ31MYpv0Tv9RHWkRdN92tTgkCg_ylTWdOap9gBsHfb4CRQVlTpAUT4U9-ssgjmSSF6FJLmUSi0z5Ov9TOfD4aaHGItmAw6Fb277r3X2KV7YKG8nklsr7plPKEOx88EbYLgsbfZl8h1wImakzz1Ul1bBVoILPQyqNT-mefFbX8TL7RA-XU6SSA1JHga7mV8YLLGQkPdthjWAF4PnWM7xUTztmBIqAJytM9FTOVsRKS23Y2BQKxiTBAl3xIY9IpebR452PqeYzx6XtWBvmMxPMrESakq3lQa_ckrUa_QpbuRJxv815m4yjKycfOsTfgGhUAh_oKSjSqTvsSZ_4vA5Lzz_GkJoQsbwZTGKqexzJduYwoZAwW690oSXF1OOgaX9W5D05bDBqmQBi_ZHURUgEeaq3-xQYB9vVuJ0eFqtoLVKDIKKFZTeTigVUKqIG8KnTMC29DOWprWVQVAXNrz0kSYfkTbNa_i8f4gHExZ-eyuorE_cB7PkogBA",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64a1560c45e45e31becaad7c",
+        "username": "pi",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phgfull@gmail.com",
+        "phone": "11111111",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "logo (1).png",
+        "description": "adadad",
+        "token": "vCiW50WnaHzhKFAo",
+        "streamKey": "admin"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->

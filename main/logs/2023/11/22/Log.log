@@ -1,0 +1,390 @@
+
+
+Date: 2023-11-22 08:44:07.411278
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:14:49.835104
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:17:24.138701
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:17:29.293949
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:17:35.211812
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:18:11.726827
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:19:41.130663
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:24:32.616890
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:25:52.551101
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-22 20:25:57.663293
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->

@@ -1,0 +1,1524 @@
+
+
+Date: 2023-12-14 09:05:26.960436
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:09:45.448589
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "0000000",
+    "password": "678041577",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:09:53.343788
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "0000000",
+    "password": "6486",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:10:11.566292
+Called: registerToken
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "token_lenght": 16,
+    "email": false,
+    "token": "aixmoKhIbdulXasy",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "admin2",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario phg120504@gmail.com actualizado correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:10:11.853254
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": "phg120504@gmail.com",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': 'aixmoKhIbdulXasy',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:10:12.493263
+Called: passWordRecovery
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "result": "<Response 280 bytes [200 OK]>",
+    "link": "http://localhost:9000/recoveryPassword/aixmoKhIbdulXasy"
+}
+Response:
+{'error': '', 'result': 'Email enviado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:11:19.614135
+Called: updatePassword
+Args:
+{
+    "username": "aixmoKhIbdulXasy",
+    "oldPassword": "aixmoKhIbdulXasy",
+    "newPassword": "678041577",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Contraseña del usuario aixmoKhIbdulXasy actualizada '
+              'correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:11:31.534023
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA7CHj7AN3XLs0st5LvHlGfsQTXnEXvmzuJmV2UYcKD3koN9vfz64FNxKT5-iouWyT_PtgwTLkS6lWvfcNJo8HUADQ3PkYWQcn49Wh12Mzx425wmgKcxaf_xLmL71yprN_mjgSNtsd9NUWPaDp4nqmAxwqtfePL0OMer4rkx-Ut5gDQn6B7aqkBz3uTBqlpPwb5TX6my40RjBAvjyJ7jAbOf6RUho2mg9HuDze86oWV4GhhKfzAt3Ehk1V9oSgoo8aalcWEWpzzhsXKj8UDPUr4U_Ixa-ZVGpudoKdDhF5qKdagwLljZtv7ywJWUqow6LuERbbCIi5K1J9iDrDW4fQbNYDzTMigQcelU9gxis5EYWs30-uCTB2FQ5Z__d1pLRAL2bHeWj-0no8DDuRtcVUCxlpND0uMubtJkk4Ixpprva47qyQlXXq1erO7b7bhjSvGGbyDouLvmlfQ5fSevUjvyg1i5RbHaIKBDiozQgI7zeyuPVnM0MyKbc2TSyVqRR0oOCWf7h3DIGNdOEZrYfHnutPuv6w8g1MRd__Fado6npXMLOHaQSTR3Ez2PWeTecEetvl9jy7h7Nnh5svI2WmLUQ4sLUQbGivRzQBn-1vMyBbS9hQJbdJFMmQQYDFtDDSmNodNS3lz3lfbo83ix46Pq2ZoV356qUoO2-KH6nt3zrUpWMUOe0HYvM57-UFnk7toPJuIpsmzit0p2Ex0nQFDhK22gHgrp4NFYMzO7VXtXs3VxieMTixGVHdTlHymwknAmScRigM8SlOpXRVrbIslAUfhHHBh7R5zDCeKXM8prAKbDaqOCciIti66R1ly7Do2YBB1Hi70gddcMm4qzIJIK9hg_vLOZf1dD-QZ_B5Heu_8yAP5zGR8fSuhmbtCbed73bm5aPiZhjCrv4GiiPt3HGfSgtNlpo8Tc00yAnCvo1A4245ZjIe0uwchxUOUREi4exxHyerjCINfWHyS1xWzF4-O3in-XE52yLz9DJduNAOgw2JLxrvvRIYzw34b1ojhzqrY19MKhhi_LGOL8yqTw_ZFl6vWgukFCUqtA-WaJc2CJ5stO4yOAS-CYa_UHdZflurZ9RtPH7yr0XoHOkdRz9wx6JKbD2tCZRcRgYaDxCB7ubYFmGWj-S7SYDjAgIGTDKVQVX6OGcmgqV2cBiFmAdTJIRhioWbMy33xUulgEyOswsiPWa4BG14Gl-KMXXTBAWJLVAXT-QbZhYwsvSyY5ZofZPKSwkMnubXxxikLBgGag_0admy0Z0wAm8XWZs7M9frts6557N8p8be_FHDwgXt7gS2-eaGvARK_mrlc4bOridTrwfgZcIigz6mPRP8o7772yjUnaV1FumHfTHRa5_P1HqGAZno5LTjT5MHvgEfwr9kf_zGtfoHBrIc4-S0YnBUbO0oPZ2meGmC8Zf0cubRTTQGbRtDUPToIkd4bkswVlY4nPpANbaTrkN9WgX0ifzEJYxL0RK4wRMlTtwngVPzzaiI0PvpINsl5X8eXL-fIrgp8c-gLuGk1LWacDt7RazGy5uLXX0QvRqm8Z3frZwpOkOQ",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:11:31.904572
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': 'aixmoKhIbdulXasy',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:11:43.437366
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "1eFVCyhD",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:11:58.666978
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "1eFVCyhD",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '1eFVCyhD',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:23.371571
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA4ykIR8tORwJ8qZfdRFOcv4U70PylxigszHW3-1n84J0O4q173R_FfypYxABtyoAIXiJsnghp8_UQT94lp89PZY4OkwN_Y1LYbAm6ERXUZ7OOy6hdEtaC9O3t-jmGdAj8BHZZt-ON21S99QBP6IDa7bQvBqLgl3BlDVLhZOfM4h5dvTQHuQ-tGgHoNOzAAsstFhuI6WzW1MP6IkVii4YwMLZWcbrkUVE0bOUvNa4RC3-2SXCf-r04dV1wZS3hfP4TFCzdnnyg3ciX4r7NY6-CR7Dp3XWZobhk5uDS0YpQsOVFA6TlhqgL0MPZ3XTDxH1hzQOw0NdqYhvXCH7Kfm4u0YiN4Uf35gynqoib7mVsoNjSHzhFgmyLWmwafCjwwzAGQ-eBnwlvG1pzJTKK-j3AhP1UETg-mTPl7aKGg_RrZnNaiSYOOug98LwxkBLXuiQju3ufhdDBVqHTnEhf5SiHG2xs-p6A_VzrM04SsuYJucbbOg5NT6x50jo5LCaIDk-fvs_xFobN2VFxE55YYwrsTMmFIqMZuHXpKOJ990KgIW8uglAbq4Sej8491xHd2ZrUd74PqRGjy6oVOkXDS5_6I02wey9imchW7n6JtBmlP9Jv-kC4MavB-zB8CfvKfrVSjqI_rfQlOtFNoMCS62txngGXpEyINj9x9KoybfkpXO2ShN09imcZcT6MS4dczt-Ni4Ljb0xuRh4He662OlT3P-uSEwjY-vsMg9pP-bQ_cKznaVRDRCjqw9Aw_DIjCnEP2vSqOShGwYKGuJoosfQ6-vq-oFcUWGQbvDk4RAU_nr5JR0vuqfJE48gBSlKP1D9AWmT1lDAXmSrsl1IrFuslx66fPdVWvoGTaRP75SCAvbvtXAcVUm6AcGXKtuyCWkwJsdc5GwdE270UIqZRb6mIcDT-7Ic7S9t9FdY3Il513_05pYy4oh0wOiJbNNYnwwpCBLWpNANEAI8YeXjyhTZT_MhRDdi1EzVBcCzxuPOFAPOSMUQUw7niEqQUvnQl4S1TqYPa0xRJMHFwXWT93CCF8x_fzrufYpYncmdL2nVlg7RHVZyBGNdHAFShREqeeZ_fTPB-dsa_2Q5kyPqwUFGIEFqDHljy0VCba1tK9V7i-Z1nUeIGh2m2eAmg-gKeG1vs3HnhYiGRWuhy7H_9e3F2rgnYARC7NlizN-DY3uQ68gd4b5n2LbMCBDEhh93Q0tvnXXoPp-CEU17gKoRv2VZytQHu1rbAAAOi3y7bH6Gx0vWkyeD18gGI0P1Th9r7YS8HLqL1oxjlVVy9OXNjDH5tFyVRSgnRKAM_pJGEBuqO3KXNTYYEJCI7ZAOveMlbLhv1yvAb2HLlFizm8inleQGD4kgWMmJMepJIAhwfFjz__2_ZnEqLL-QHmRRVtALL2jW2QGmIEoM-eJ05qUmNo8IA1Ri2zhjS2VwTym63uM4Er7VD1nHzlMb5CFHVG9kVw6G9YWG-QAVqbt2F8WEmyyQyUUn8XR7lXth0Alk4XDkAoo_aSDt6q_VkNnVTOoDJRXbsF6Mq1xV1HQ5vd8pSswaOd2Ab-PZw",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "1eFVCyhD",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:23.655423
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "1eFVCyhD",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '1eFVCyhD',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:28.300709
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "pYPZZBWZ",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "1eFVCyhD",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:47.904528
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA7iBI1tyeeVfOGocZ_Noluz95KvXQB1SvbrYi92EWYcejBvgoe8Fhh1EMUTKyfSIo2vDr7wNlre2PbwOz5fbCZ12TOezzzkagvBclhrmrNQXVh2B2Vf7pV3BLbcrsvzI8luT9SGXyOr-w1trIJt1b58uCrCmzSQB_i7Kduydsq601NPFgMl6qca9MRp4jTkaR1SqAUYSrWZ7qAJL5vn0A698sRwLsZJyII0ItXVtTSzuptuAIBljnN9dHwdpSKF7Ivk8vgjddO_z0Dr6d-Tvhah7D0pKp_NJUUcGns7tQylIuOwoc93NROeRZKHEX8_9IwtXmT3yYRh-0lb0Et8pcYDjvDd-ZUfiVU57NHkUTaD3D0Dp2UxPcE_7rPKd0l3lLwcdfhmI_9yy8cbuZc17wUgmd-GDGQBW4hTW9nLMvlUyT3Ial5mv6hVbUjo3bqyI3sTnicjHyY1TsjGX2YuajSbY2FQMfFSnu5HxVcz40gCGaCHHRgsCays1VD5EkOLKAvAkP9U_ebAj3a16XUKbTsrR8gNDWSpEwCLs510ziXVhYtX5IzlK0THZ-oLS_TOSaMpQLZScZLNoWB4lHyfOZhGh04xwmSleUAorfxDhPA6ZyUOAMq2fGkcsAfJlXThgR31wqC2n7lLQGqX1dAxAJf9CgtgAxuioYHRK6hiB5R_WAplipdPFM8neDzFYBg8lvpHoNllP35Vs_BjuqPHTaa63hISuwpB6Mw6X4TYwb3LJlCWC9oR8I-lnLv-CKfft3sWoYunWS3aReTQngh3QQxX8xkSKm2vYvmdVRLO0W2BecS11a2mTbGQdaNxU5PBRAmGtOwRgnzZnSZ1PuE3_2yczcPEjjBBytqLfv_P057BHj0eMxTHZQchl1wjtBSUi2N3vOesP7QykI2lpvcVYQZ7t2zpNmMH39XUNld4avCEaRqL0llqOINWaI03FzkiBCKqLU9MR-Hmg0UIgdM7tVQc6K7W_f5iFx2OJs-9U3lb_0S39wKYBQM_Bnsga3jf7g6zgFLh-vS0N56uxD33Dg_bJxe08KIYbOg_K1Zxd19Ie76s3IIKRu3vO0XrpBrgBXrfsTc5iij5gm276lXmgfI8KBlZLPkEi99Qmi24C0-C3-HFL4RUoBPVqh8wkqjiWC5xn7T27hjv3o2_Q2wVVJaCBy4iCuuaLIOGNDSoVHwQsUb7Y_mA2oaIPDIvjrXjR8y4ljcRJrov6zve3SKX1hlE-pL2yd5aVTSW1l5Bjs523-xtszAXkTz3Nmj8QtyIs_KRDfRIN0Rsic3eRM7rHqNjgE5q4R-pRmzzO15kb7tK4F5lFeBIOmnRAjJhDWda427EosiwvkkwhXswrzCcsywwR18mz4Z8Ndqjox33D7FGZezHXaQUQo8bMjUc8EYi6AyzA61wEUeYKf-RAxkmyY1Y1T0bYxy6j0D46P1FDKoHs-eocFwjSYABqeJVKUvshrnK2S7_S_12_2SK1DKDbQdzprdubZ74fK1upVR4j1EK6-orvMcoFnbiP9ednu-PUVdj9lyU357I2NjmxlKBZKbreiqhEA",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "pYPZZBWZ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:48.204752
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "pYPZZBWZ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': 'pYPZZBWZ',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:50.188488
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "5gYQBEhQ",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "pYPZZBWZ",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:16:04.460656
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA4nayj7_b9iuloua0WmbUbTc9z5iJ82dSAakIh7M5Y-2-QmriRGeWRdmjoBxXcvUNa-_VRuZkJe3qRQEUwGNz17JvdliVT3S6VVrOmLY9oOigVbKie65YIvaY4jqfP1hrtzqgMLAbhuUSXUu6x-2A7QJTEr0U-3jnOe4jLwCmxQNeGyZ9sVaJ4uAk5giMD20N5xMU_cFzd_h7Xro2c6_TOGl5R3fMc0SQYSjscy1kzm_bSHFiEhyNwxm1jIgjp1mq2-eMpFdVEr_MH0TswhXPFTONF7OY7QrwTC1A4nrnjXh1L6ROuZ3kPxk8gzLITSDwY5NrLx8HVS8Su_IqOQ9ElHCFuryEvUjzf4juMIis7MnmCROiMAy1-pICcNOxITJt587BYYgyWWhVOslrw7ksldmAsMOnmK3bzdIP-GzWHLnIj3v7HjIGhgIgGLAt3uiz3H6UHC3EeY35w5JxraM4JUa_TTxmGWS_5krRNaiQGqNUlGz8Rr0gQoHUmp4k0Jlolm1Tb2liBepIkBUgdVbU-R3PnAL9RY_8YPP2gIv5pv5Fk4PzpIpxc6y8vYMDluZ8H3MUZ2KhzHr8PpnIrP_qJK9omorYbVPwTPF03KCcRBxfc4am1hRk7x8w5fBl_4UjUmR3SReVk7Uxie3xHsMRNfzEEQt0THPiVDStKFrpiDwCLfRp9z021JyT62Ez7ZR9K4IBpNX4A6VIP8FObaA7CK37vFz6HWTzaYCwJjcXWJfswC0cfUE8zUwx1weNpzbwEqIX89OCcZAI_ypd1Xh5slNrmrW1KRR1k5sE72vWiCElbgcmQv5PzsjCTtJ3oCly5-58U0UYzy6DX4eeI2V8njjCs8PGQJ_yQRaICsCYGsW3iZugCXoQn22SRoisVfyHP2eXYNd8dvlCptLeK4u2iUx7xjsQkQPCwiaO2Agj3UAX1RKSJYsuFu7s8U5MsNK67itGc6SJ6w5R7S235WT4K5LAxx_UDF8_zPQ-hQ6-SYwzqy2g8Y1GMvmndvHe1-_bGtpNLtroov5GPfDS0cYUL7EF6FyUnZnC98bkQgr-LqzJYWWD8B5NkChYGTrRxBqTvjpSXAH-CKjLu3lDARbKkYPudSnPxxOArN7Mi15lwyll-cbyK-ePV4akynRK-OrrsN2vUfXnr2Q-gJ23YfHh_WeVwGxuYV36ZXJIugIVzoasbGLed__8GJseH_b0G_pjJHlutvjul04YLcRbqu_4JOAOdi3Qyjwye8SWdc-Jye_PrE_bEyQNxGKB5J_mHfMsg0rYUZvJZsc4bR7JCXzDdpmcEvM5hUXL_uvgDdwHfv3Tv_c6I2jBY2qZYVdFW_DzlpwYIP5l_WWoymYMbfJM9LwWTrLCGGm6QCCb1BbCfAL56XZdReEX9bbzhiJBOq8nyAhfNU6BrCPXh2YAQ13N8xjNISzFm0ROHicsDVXDlNA9yZGwiPSNoMBeBamASBE2aYp2FCjLBRYmxWpNScQ6m8TjWt8GFd_t_x6E1L0yPar2vcMoaXUigSyoJ5UuzYD_9wRXWn9_1mkRWZz-bohEnlmjViImcujnNR_oqBhv4kWBLdy7Bt2v7dYbQTm_hgeprB4Lvi",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:16:04.780410
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '5gYQBEhQ',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:26:20.553454
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '5gYQBEhQ',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:26:29.341407
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '5gYQBEhQ',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:26:52.532971
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA5z9TX_zHvOC1S1WxjZPznlFwYINYwF7efRio97MfduWT9mLNeMAa_CJFKMpWQoNAqfbuIOl0SZsGzoEsxGs05JkMe4CGWXx8_MzgXJpLWTyo4RP-hp-Xp3tiAz746s_UDqKQOiVzWLgHtZY8uH5cAaMWEzIpgVToyFcVcvrOSUzt4mP3iEi702SIEHzioXyS-kg_pvXmBMB6oJg3fEQw6uX9pgWkPtjfVV7k1cA3aNq13CUDWJKZwketLtvTww6YYzSUYjwP6ltul6MhRi7KfSgU0CoduXAJ9lYXOKy4USleuFasnrhnDgNhn9LBW1XWsDrNS17sy6Mo2X70tAacYC6zq7geVippTrvGnX5EDbFta6JE38otQctHG36izI7VV-GomevztkmWMY8iEBqEDyiKQ-olkZ7zamkRqzU2VRKsDWbjjzOxEjYmBNVvY3k7cShnHN54opyEDbgJI2RWGb4zd9C7AfAFyOuqtFogYqdpE3fm8jQmgUTWIKeo0DW4R9PAHmJyZZekr-L5PIKXdkPYmlC26LaHEN6Oluakt7sTGa-bQSuVpf3uk4mBo3JKMqlDEo_4Bm2kGJZgH8b3yPGQSqfHzFusVvMpoABOAgiVKIGAPFMGzWoKyFyJIUpLTcEKDgcNkNCIvox_PLVU5SzEZe3WSt86o76K0rMRldO5AtbGHcue4mTrY_L4_gMB9Sky5KLBmu-I0xH-qGMIu58bPzLY8jDcmCuvFff9dIj122XPcNtizVuI2De7K4NbBYx5-vqC_plU9NP9kcv9fVy0hoVcigUq34jGEm8VCNnL0M7tcccV9_EgAByYtENTcmhqFCw1G66decnAyduOaJhXtkt28imDKvTX3uYRKlFV8x9eqdy46Xrwps3lzjN_9czeFi4v6FjAGJ6qaRHb78KzQ_0W0pstRNM-2OWtDWD12j2iiX8TtaJ-HTWnygVI2YlQiLzChcqyhFO9uY0-f7ZHTzSmAQmYnlBJUS0srbBdZR3cwee4OMwpXLm3Wso7oU7rKuqi0Tf1t-Zc-Z_nH0QtSS_uQHCW2B8fjA8UdKSxoDU1eiwrbru6kBUjzxruZUpXjZ0fDs7xIxg5sWhtIShEF6UpIfGBIgYpCkChB-6XHH4Ai4yjpJZBFx0AingjYSRrPxjNt94DdauuqO1r8tI4WGkk6eraWBNWridwss-_B1XCocU_RqpQ9FBv9N5Ab85K6nQKZPWPBaOPtUyDfyFosktWaI68TmRTrfeRKLZjIWWpAMXyXqis4X7OPTlTZ-0hmnbAi8S7Hs08cqUQ9FCynCZ-5uPhv3H2n4Du11pyvMGP-WAECWmb9HfOtPca73Tinpf8Q1nkxavsdarRWJ99Ua_GZx5WD4WeveZbxX9Gd7xG8G_xPvl8Lz7e3mPLSATUnMl6vd7AVg4d5p52IT9tGWvXKklIV9BiIM1jUME3pHZzz9U81LlvuXu0kBuY2UNPLBhvGo6RwH9iPlaqB3aUauplcPFDjaMdzE3n60AE064brp5pTwr9a6WjG5yVTaXD8UukWtRigZY2p67N-_3XzJnpPPqd42rbmX73Q0NuIkE_XK-ImN8E8mEq34Wl-6WCIV",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:26:52.821251
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': '5gYQBEhQ',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:27:25.370458
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "MAXfZ4sT",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:32:21.269353
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA6EzsZecAgG3y8e0PywToHIgWGjvjpPgVTO1x83msQ3j0rgSpMA2FU3U725qqEHx5O-0qFCsdL_4N4i8riqo8OthozV4k0gsZlCTqIebLlirvcswt8af8q4nSF5X0aWPRuN_tKluwpmO8Y_xVPZNe1y9S8ajRqSv68M2c6mFiaxDGTJ-TR_uUCXCtBWtjS3ed9QASx7j6qkfolehrb5JOLVh0Cn8mtak-2va14w4RdASvHWckOV9CfYPZKj3WsPuE6tYH1ZEbAaZIZ7ay_F7hrCgRhurXIEBQQx_NRv0XV5gCijsZEHrnyz8a1xqgfokZmLTFW0Fo24n8NhAoH-grsNnKlP1sY0fqqVYPMMagkhhuz-Ug8ZoiT6zt7SUA2jXfKvgICxOH20Unmpirb2fKwAUFUwXjQX1BRtbgZSyGss1ffBFYNCvIPlp7L9ikb3nOw9tJ7TGlXBOnEERusMSA4XHrnxQLm0mbsrxxhenzEw13cXu8E80lVsiVAvFZJ1WHeB8K8EAHGyVtHXJayl2_34jI0FAjl7YxzLlx3Mgo48wIDbvAYNGbjFvG1aft4rGf2LIeZ9TDnDkjDoVjSsbHiBdTLGtyiT5jOT_E5Bo-iitYagbxwQVWtuMc6IPS8d2R-VkQ6Klwos2gI4QaCmJeSIor0ZebChy2AZhNHhT7Qkghg43J8zv0besP2HJ3dg_AyWT1O9M6dNykfHzYnKF7D9q2dkFyD96tpmJv0XEN90oyT5o8KFOBF8VIWfeXauKYgdAB8wDfpzNS1nMo6V7fvpkq04AH1oyRMlq6gMIZl386_cHtRHl8UIlRR99J_l8_p2nIMl2idppMbm0DOf16QAnItvNzA1W0x6EKFfy8UP6H_JVpNwi9yj4mmG9YUwx9h8knLg4DX1lf-t2No4WMYeb5en13YnnTokWygIkPmI2ScffKW3Uw37KZ33_HwdZlPQkt8fnYrg_nU3TImdL1uhyT7AGPz6eQhlpwjEKDbsF-HgOu7s-WpK4NPjKBmQZqllqqPeS93cFJcZ8xYv__Y7VwkHviSF52DVHLeqBdFy_BU1slx9kXcTuGOUPFRf7OJONV6FgPjOuxFb_q7RKDz9wcGnPyzEHS_hotnnT33pfZP1WrnlmlUFyeLaflgxG_1fvs3xWbCMAb7SM7NaaucoNSLIbLglNbGgRxt7CCni3FBtRqQB2uQGGq3nXU6PlBNUHTKlgJmmANC8wvxTJ3bZQCeDFa6Tj2nyuxdksFqZM8xv6FmRFSxjt_v7mKGzAvkL1p90jkS3OUT0Km5n93lGTH_0vaIDXG1DmxHUIXdL2BQQ840mMUSWYI5vi9TuM1YafcPL1vuDRXlJv9HCiDTIOwVjpuxuzW7YTzyeRrvy68NSPiGNzNZ3fcqn8b94tct9QYFLi9MQEYjQJmH-Ad8Y5eBtfgVYFrkYnr3qzMLUURZ8Jp5AyxdIWfHkUAiGSSTZ7TNqn4VAwjn3-7L-NOLfVlahCylvNcCihPCkNZ-Lk7g-jdvpVegxhem-HM8w6LtWVGyaDOqcNk2yOiDoYnuLzMTsvA",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "MAXfZ4sT",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:32:21.575792
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "MAXfZ4sT",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': 'MAXfZ4sT',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:32:27.777235
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "Gd201Erl",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "MAXfZ4sT",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario ejemplo actualizado correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:33:20.109053
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+    "token": "03AFcWeA6V5QrtFVJ9V8O1WDKVr5RlIz88rshujdCl2mJ82z2EtECqkAvllZxJeW6w1tlUkClWYkTujXhZuQx16U80Ii50zgkl3Ok5i8WUDvuKBQTPL46oBOxkhpc4KEa4t-p9IMK_IVfDIBqwYkL_KhqCbd2qnUEfigaEdPKVxQvEJOdv2YSweMxvZnGViNsU-FbrBcmi9rWF1WcJkvdM7qRV_B4HBZzz7JHVsnWfRY95byhkkmJ9DGQUHwwaAmCC5Hn7Blt-2qVDgMVJ98vebxIK_OTwZ27w2MkWJqwXFcaZcgTz485lgU9BEWuarhzKNjb6Vsa9ZTUMPCT0eCeu19xOwPLSlKfmO-yFiBpPsdR8or5zuJfvBXRMzjqTEE4tcuEIZL2WKbzptBHx1OAHO9EzZrWSs2x8eXvefQouh5XIYZgKRDOQ8CdNMqa6og3TQFZCmV9k1SzTGfyBR1r-b5kTuooFSBxUGxkwcqImB9WlimjWUyiGqufFjKHo35VUJQQVQWMueTqtU6bBccT-mdEeRFww_YBUN05c667qxNU9Pxg5r5I4RAbwdGcy8ryKD2dfaKCCr3-jcUSyjPWcVG0snDZh2cRgxuz9EZfaNUGRcKm9ycpoMv0PQJiiJIt7B90QnyYF1V37ctkaSnTbvasXECdBW8xQco6AOswdBcyp-0hdMpx76bRAExP8sQH4Y5muvXBFHsyl7zu2-mUNSS9_5V32vKH-uWuH2I729epEZGNnO9oIMaiaNYumAaF3bPoTHJ2RRUwduAD7U8tfEKJ3u19oyUnQoM7XrN3yCj8t0olwIR7DaxHrRDGlG58yuuAdrc7sY98l5z4NFawloNF7Pnfg26HH_EqTKxhprdnEzMdU9p6_BVA3SodsURocIabdOkbpj8Vpho3dsAhfYNwK6AfyNEtasPSaH59vVbU0Ds--Uz_X-fWF7VtHF8RfWpUUL3HXjkWE3kaPkJ-rs7Ytnt1U1ucELnT-LbxcCa-jzEnpdVMV_KBVO8IOWvsZV2pwuWdqh0JYb6EuQO2EMnBI99c-gC7WRIJltdjuZEsfPiAfwe3IsnD1NzZ3hfOOADoku-NPOZkHVBh74QVpQbPSswn7rRepYkHYBMpJvbsCYzEwCOlPSXpkQoCd5HxqL1HgPSchQP-FadaNSHLjltaYokPq5r7Ri6XtAUx-Ijxpf5xNm4khdIuz_x18KiVYMRApzbEGQOx3Tduz0BYLDt-HnU20dP6nwbcWKF17v-X0VmfaXjpTjKt3cxcdj-9orbqbVJ3nZG62YdacW5BKuE0ttAv729JhRyZ3g5m6h2b7Fmv1GR8ZbiovraTtNpzIEreM4fRzQKnzCEbr3shKQ-Dcnq-YQRQnTWQYqXCAdZXrOWU_UL6_iV3xeBFk5rXV4jvn61g2aQdJmSzbHkYP0UQgf3ODNsqA7PIcK7q2j9YnoBep3Ks-Dm7WIsULL6X1NhOt29fTk0a-25xdvXLQ86SJo40wtyK0rbLzEQKsRT45qmvFao-vfOjX_kECsUlDKT6U-lA1j1OU3aL42e11swmzh71qLMv6LFEdQ0ZsbsHQ9xP54HUTelLJwcB4HEGzdG2yw2noRib-",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "Gd201Erl",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': '', 'result': True, 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:33:20.515300
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "Gd201Erl",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64b01c5b6349f3556a84d93c',
+                  'description': '',
+                  'email': 'phg120504@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '6666666',
+                  'profile': '',
+                  'status': 0,
+                  'streamKey': 'admin2',
+                  'token': 'Gd201Erl',
+                  'username': 'ejemplo'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:33:25.902277
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "9UtESaxy",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "Gd201Erl",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario ejemplo actualizado correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:33:34.331708
+Called: checkToken
+Args:
+{
+    "username": "ejemplo",
+    "token": "Gd201Erl",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "9UtESaxy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': 'Token incorrecto', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:35:02.945210
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:37:17.236718
+Called: registerToken
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "token_lenght": 16,
+    "email": false,
+    "token": "JL6eYtbw9lTFB2lQ",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario phermidagomez@gmail.com actualizado '
+              'correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:37:17.558950
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": "phermidagomez@gmail.com",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'JL6eYtbw9lTFB2lQ',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:37:18.002586
+Called: passWordRecovery
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "result": "<Response 316 bytes [200 OK]>",
+    "link": "http://localhost:9000/recoveryPassword/JL6eYtbw9lTFB2lQ"
+}
+Response:
+{'error': '', 'result': 'Email enviado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:38:07.929838
+Called: updatePassword
+Args:
+{
+    "username": "JL6eYtbw9lTFB2lQ",
+    "oldPassword": "JL6eYtbw9lTFB2lQ",
+    "newPassword": "678041577",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Contraseña del usuario JL6eYtbw9lTFB2lQ actualizada '
+              'correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:38:17.432502
+Called: updatePassword
+Args:
+{
+    "username": "JL6eYtbw9lTFB2lQ",
+    "oldPassword": "JL6eYtbw9lTFB2lQ",
+    "newPassword": "678041577",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Contraseña del usuario JL6eYtbw9lTFB2lQ actualizada '
+              'correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:40:47.738437
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'JL6eYtbw9lTFB2lQ',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:41:10.081031
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "11111111",
+    "password": "678041577",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:41:25.782940
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "11111111",
+    "password": "678041577",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:55:39.886046
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'JL6eYtbw9lTFB2lQ',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:59:56.293152
+Called: registerToken
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "token_lenght": 16,
+    "email": false,
+    "token": "jmS2aDJLtiADHV6F",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "JL6eYtbw9lTFB2lQ",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario phermidagomez@gmail.com actualizado '
+              'correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:59:56.471841
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": "phermidagomez@gmail.com",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "jmS2aDJLtiADHV6F",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'jmS2aDJLtiADHV6F',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:59:56.686725
+Called: passWordRecovery
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "result": "<Response 316 bytes [200 OK]>",
+    "link": "http://localhost:9000/recoveryPassword/jmS2aDJLtiADHV6F"
+}
+Response:
+{'error': '', 'result': 'Email enviado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 10:16:50.616990
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "jmS2aDJLtiADHV6F",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'Pablo Hermidamanolo.jpg',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'jmS2aDJLtiADHV6F',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 10:17:30.569766
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "1345214524",
+    "password": "adadadadad",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "Pablo Hermidamanolo.jpg",
+        "description": "",
+        "token": "jmS2aDJLtiADHV6F",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 10:19:44.047974
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "a8a569b8e710b1a7ffef28a5e4060dfb590225f72a4d8c8fae65a21ed0838594",
+    "token": "03AFcWeA7eOh72MeYER_B2bIDPxgyxO6nlvHRaw2vx2vlnpPtwNSCc-l7QzY_aSZu2bj91fb0kF-jMdrMAMWL3x9CL0yfmd21dMU1vTxLxljT83UG7gEQ-OZXNgkROH6hbvdn75wAGJLvgtV5S1fVWQCmHWODXVGqaLdAmw_kzJYb-QBTF8O816kQvqLwHOdRuteXQ3wWTWUxAumrBbN5dgyVPlsj4ayNtJcJ6jnrMfuz9KnITyRCEhj6rKuppwncqk-R_d7ZgklsaS829zAGZlVHqKKb8fpRnPGo0Z1tezSoFBGdIvtiwXaX9gpxew5ETyfrdbzm7OFfR9NZUyu0I5gtZ5oaonND_j6qLLx1nkeyFd9j7a7u5mtxNKW21xhap_tGHhTn1EHkYxvdT8ovqwo88u7lPXUvTRgcAjkjFOOKcRvz3GHuvYpMm8kFr3I-8lAjhgQudowrBw6mC8iifZWxxczvHeMrwGl8IGOo3dyD-cYhLpUAMcYUS18VZ8ZwgP_hYxojlPjPbNDBGlZutMdZTlFTR8aOQcqHFdYY7sy1R1BEwoyjO_a9E-4ZcDEVa_yt9gvoty18UdAIoGGZqouIJP6b6N61a3Jj6lB6LjZqQEiFEqz8Vx7Cax7iedGSLbr5g1ttvHDMlRslok5OnHz08mTjKcqdka-SeoN6d7snx2qHNea_TQmghGiBSY5GfQ9NUg08TPAdGNBGDHAkXsYTDPJlGIGXVzT332V9R6qk7e6cGnshz9WHJdi4VM09aFi5ekhn1Mqq6JrqtF32Hd8A1mqdS7jAA4_nKQCV2UkkjLr-p5baUJMZOuCUguGAvz9fjNMZQ9oReHeRMw4qP6vgF7ItCyh-x5Vjh31v3r-naeCYQGrqhhF4BARsQpQp-mTmJAn5ZUFlKiW6hNSXG9kQ3C8WjXHvNrbpIvsd1fFLXjbsJ8a_FGA4ZcVZryMEeLTA30nCjgJnuqIGEQNjXKj5GlsnU_nADZ_OTmhIPpRBIBK60Su0NK6A96jwABceJKdt9Q7_5FvbARNuWs5qzYoXRWqg8XaylirNW9it-hHB_tCh0eZtsKwzxJHBM0vwWvFvjAmAdbVr9DCpcTHgyKaSpJ_7iW4ekFHAOZS5G3Qp7c9mzIfssM0rB7b5CaNAFUZTJkrpapvIMlPGuXj7sPE9ymNZXQpetGN_sechtA_JkmONfTjIOqE9UzfWH6wMGKatDISTYUnAvLxJx-C1Id8AvxfW9EH_169LyR6Ey2aXouZOCcAO2bXZp1XoTGBo2ZeysSLMonXbUsXOvd06Oes3yVuLfGrEp8WXkFSgFUvUJzlda8vpMwM_i8ZNyxTFPP0Q-K9InOLb2jEkZWQI4YukaS1NNA-UCj9oNAkqIZuyo9Uua_ejWMKwlpyY82XdQ6wdrvCZDQF0GPekFqyTwTVGLS8v6l2SjWSWxA4zl8G7plm_kkYiqfJkHwrZI7q6ZzMWw4xowG3VTes3Ukkt2ax0IBJGs60pICy-lpmkZM6XfO8lw69tOfikPMi3YUp_gvm6_UqikTQoN9_670sb0eiqxBR_xDBtJQj2aFqSa6r2_3Pr3s0zHruVVDrwm0X5oOtU_HrkQWHA9wTUpnjwR1U4K_UJfn_xmMA",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "9UtESaxy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': 'Usuario o contraseña incorrectos', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->

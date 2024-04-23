@@ -1,0 +1,53 @@
+
+
+Date: 2023-11-21 09:45:26.858814
+Called: updateProfile
+Args:
+{
+    "username": "Pablo Hermida",
+    "e": "[WinError 2] El sistema no puede encontrar el archivo especificado: 'users/Pablo Hermida'"
+}
+Response:
+{   'error': '[WinError 2] El sistema no puede encontrar el archivo '
+             "especificado: 'users/Pablo Hermida'",
+    'result': 'Error al obtener el usuario Pablo Hermida',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-21 09:47:07.747440
+Called: updateProfile
+Args:
+{
+    "username": "Pablo Hermida",
+    "e": "[WinError 2] El sistema no puede encontrar el archivo especificado: 'users/Pablo Hermida'"
+}
+Response:
+{   'error': '[WinError 2] El sistema no puede encontrar el archivo '
+             "especificado: 'users/Pablo Hermida'",
+    'result': 'Error al obtener el usuario Pablo Hermida',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-11-21 09:53:23.453585
+Called: updateProfile
+Args:
+{
+    "username": "Pablo Hermida",
+    "file": "<FileStorage: 'manolo.jpg' ('image/jpeg')>",
+    "filename": "Pablo Hermida",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al obtener el usuario Pablo Hermida',
+    'status': 500}
+
+
+<------------------------------------------------------->

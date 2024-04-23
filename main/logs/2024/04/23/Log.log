@@ -1,0 +1,963 @@
+
+
+Date: 2024-04-23 09:46:27.872384
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario phgfull@gmail.com', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 09:46:27.976687
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "streamKey": "mKwUxTue",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    },
+    "e": "E11000 duplicate key error collection: FULL.users index: Index por email dup key: { email: \"phgfull@gmail.com\" }, full error: {'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: FULL.users index: Index por email dup key: { email: \"phgfull@gmail.com\" }', 'keyPattern': {'email': 1}, 'keyValue': {'email': 'phgfull@gmail.com'}}"
+}
+Response:
+{   'error': 'E11000 duplicate key error collection: FULL.users index: Index '
+             'por email dup key: { email: "phgfull@gmail.com" }, full error: '
+             "{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key "
+             'error collection: FULL.users index: Index por email dup key: { '
+             'email: "phgfull@gmail.com" }\', \'keyPattern\': {\'email\': 1}, '
+             "'keyValue': {'email': 'phgfull@gmail.com'}}",
+    'result': 'Error al registrar el usuario 7FULL',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 09:52:52.687206
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario phgfull@gmail.com', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 09:52:53.231499
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{'error': '', 'result': 'Usuario 7FULL registrado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:08:45.921614
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "7FULL",
+    "email": "phgfull@gmail.com",
+    "e": "bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}"
+}
+Response:
+{   'error': "bad auth : authentication failed, full error: {'ok': 0, "
+             "'errmsg': 'bad auth : authentication failed', 'code': 8000, "
+             "'codeName': 'AtlasError'}",
+    'result': 'Error al obtener el usuario 7FULL',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:08:55.784801
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    },
+    "e": "bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}"
+}
+Response:
+{   'error': "bad auth : authentication failed, full error: {'ok': 0, "
+             "'errmsg': 'bad auth : authentication failed', 'code': 8000, "
+             "'codeName': 'AtlasError'}",
+    'result': 'Error al registrar el usuario 7FULL',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:10:57.399774
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario phgfull@gmail.com', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:10:57.821056
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{'error': '', 'result': 'Usuario 7FULL registrado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:12:45.355223
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario phgfull@gmail.com', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:12:45.752896
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{'error': '', 'result': 'Usuario 7FULL registrado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:15:55.656468
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276d7dc9be3ad3de51b086",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276d7dc9be3ad3de51b086',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'status': 0,
+                  'token': '',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:15:55.692961
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:01.011637
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": "phgfull@gmail.com",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario phgfull@gmail.com', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:01.450423
+Called: register
+Args:
+{
+    "username": "7FULL",
+    "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+    "email": "phgfull@gmail.com",
+    "phone": "000000000",
+    "user": {
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{'error': '', 'result': 'Usuario 7FULL registrado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:01.482732
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "7FULL",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'status': 0,
+                  'token': '',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:01.510539
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:13.010610
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'status': 0,
+                  'token': '',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:17:13.045462
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:31:00.001458
+Called: origin
+Args:
+{}
+Response:
+{'error': '', 'result': 'Bienvenido a FULL', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:49:02.010098
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'status': 0,
+                  'token': '',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:49:02.044829
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "static/users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:49:04.493910
+Called: registerToken
+Args:
+{
+    "username": "7FULL",
+    "token_lenght": 8,
+    "email": true,
+    "token": "NlSej06d",
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": ""
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario 7FULL actualizado correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:49:14.391592
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:49:14.433357
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:51:13.659408
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'fondoLinkedin.jpeg' ('image/jpeg')>",
+    "filename": "fondoLinkedin.jpeg",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "jpeg",
+    "max_size": 5242880,
+    "size": 26039
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:51:13.699630
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:51:20.398745
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 10:51:20.445154
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:02:58.780985
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "7FULLCV.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': '7FULLCV.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:02:58.841400
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "static/users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:04:47.681050
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "7FULLCV.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': '7FULLCV.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:04:47.732218
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "static/users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:06:12.463064
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'CV.jpg' ('image/jpeg')>",
+    "filename": "CV.jpg",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "jpg",
+    "max_size": 5242880,
+    "size": 58973
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:06:12.516793
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:06:16.820918
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLCV.jpg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLCV.jpg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:06:16.886983
+Called: getProfile
+Args:
+{
+    "email": "7FULL",
+    "directory": "static/users/",
+    "filename": "",
+    "result": null
+}
+Response:
+{'error': '', 'result': 'No existe el usuario 7FULL', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:08:41.826513
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLCV.jpg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLCV.jpg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:08:51.313120
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'fondoLinkedin.jpeg' ('image/jpeg')>",
+    "filename": "fondoLinkedin.jpeg",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "jpeg",
+    "max_size": 5242880,
+    "size": 26039
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:08:51.358498
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:08:55.175718
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULLfondoLinkedin.jpeg"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULLfondoLinkedin.jpeg',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:09:08.514039
+Called: updateProfile
+Args:
+{
+    "username": "7FULL",
+    "file": "<FileStorage: 'CV.png' ('image/png')>",
+    "filename": "CV.png",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 277747
+}
+Response:
+{   'error': '',
+    'result': 'Foto del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-23 12:09:08.557871
+Called: updateDescription
+Args:
+{
+    "username": "7FULL",
+    "description": ""
+}
+Response:
+{   'error': '',
+    'result': 'Descripción del usuario 7FULL actualizada correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->

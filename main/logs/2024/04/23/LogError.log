@@ -1,0 +1,19 @@
+
+
+Date: 2024-04-23 10:08:45.922559
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "7FULL",
+    "email": "phgfull@gmail.com",
+    "e": "bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}"
+}
+Response:
+{   'error': "bad auth : authentication failed, full error: {'ok': 0, "
+             "'errmsg': 'bad auth : authentication failed', 'code': 8000, "
+             "'codeName': 'AtlasError'}",
+    'result': 'Error al obtener el usuario 7FULL',
+    'status': 500}
+
+
+<------------------------------------------------------->

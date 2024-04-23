@@ -1,0 +1,184 @@
+
+
+Date: 2023-12-14 09:11:43.437366
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "1eFVCyhD",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "aixmoKhIbdulXasy",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:28.301715
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "pYPZZBWZ",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "1eFVCyhD",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:12:50.189469
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "5gYQBEhQ",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "pYPZZBWZ",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:27:25.370458
+Called: registerToken
+Args:
+{
+    "username": "ejemplo",
+    "token_lenght": 8,
+    "email": true,
+    "token": "MAXfZ4sT",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "5gYQBEhQ",
+        "streamKey": "admin2"
+    },
+    "e": "'EmailManager' object has no attribute 'sendEmailVerification'"
+}
+Response:
+{   'error': "'EmailManager' object has no attribute 'sendEmailVerification'",
+    'result': 'Error al actualizar el token del usuario: ejemplo',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 09:33:34.332709
+Called: checkToken
+Args:
+{
+    "username": "ejemplo",
+    "token": "Gd201Erl",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "9UtESaxy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': 'Token incorrecto', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-12-14 10:19:44.047974
+Called: login
+Args:
+{
+    "username": "phg120504@gmail.com",
+    "password": "a8a569b8e710b1a7ffef28a5e4060dfb590225f72a4d8c8fae65a21ed0838594",
+    "token": "03AFcWeA7eOh72MeYER_B2bIDPxgyxO6nlvHRaw2vx2vlnpPtwNSCc-l7QzY_aSZu2bj91fb0kF-jMdrMAMWL3x9CL0yfmd21dMU1vTxLxljT83UG7gEQ-OZXNgkROH6hbvdn75wAGJLvgtV5S1fVWQCmHWODXVGqaLdAmw_kzJYb-QBTF8O816kQvqLwHOdRuteXQ3wWTWUxAumrBbN5dgyVPlsj4ayNtJcJ6jnrMfuz9KnITyRCEhj6rKuppwncqk-R_d7ZgklsaS829zAGZlVHqKKb8fpRnPGo0Z1tezSoFBGdIvtiwXaX9gpxew5ETyfrdbzm7OFfR9NZUyu0I5gtZ5oaonND_j6qLLx1nkeyFd9j7a7u5mtxNKW21xhap_tGHhTn1EHkYxvdT8ovqwo88u7lPXUvTRgcAjkjFOOKcRvz3GHuvYpMm8kFr3I-8lAjhgQudowrBw6mC8iifZWxxczvHeMrwGl8IGOo3dyD-cYhLpUAMcYUS18VZ8ZwgP_hYxojlPjPbNDBGlZutMdZTlFTR8aOQcqHFdYY7sy1R1BEwoyjO_a9E-4ZcDEVa_yt9gvoty18UdAIoGGZqouIJP6b6N61a3Jj6lB6LjZqQEiFEqz8Vx7Cax7iedGSLbr5g1ttvHDMlRslok5OnHz08mTjKcqdka-SeoN6d7snx2qHNea_TQmghGiBSY5GfQ9NUg08TPAdGNBGDHAkXsYTDPJlGIGXVzT332V9R6qk7e6cGnshz9WHJdi4VM09aFi5ekhn1Mqq6JrqtF32Hd8A1mqdS7jAA4_nKQCV2UkkjLr-p5baUJMZOuCUguGAvz9fjNMZQ9oReHeRMw4qP6vgF7ItCyh-x5Vjh31v3r-naeCYQGrqhhF4BARsQpQp-mTmJAn5ZUFlKiW6hNSXG9kQ3C8WjXHvNrbpIvsd1fFLXjbsJ8a_FGA4ZcVZryMEeLTA30nCjgJnuqIGEQNjXKj5GlsnU_nADZ_OTmhIPpRBIBK60Su0NK6A96jwABceJKdt9Q7_5FvbARNuWs5qzYoXRWqg8XaylirNW9it-hHB_tCh0eZtsKwzxJHBM0vwWvFvjAmAdbVr9DCpcTHgyKaSpJ_7iW4ekFHAOZS5G3Qp7c9mzIfssM0rB7b5CaNAFUZTJkrpapvIMlPGuXj7sPE9ymNZXQpetGN_sechtA_JkmONfTjIOqE9UzfWH6wMGKatDISTYUnAvLxJx-C1Id8AvxfW9EH_169LyR6Ey2aXouZOCcAO2bXZp1XoTGBo2ZeysSLMonXbUsXOvd06Oes3yVuLfGrEp8WXkFSgFUvUJzlda8vpMwM_i8ZNyxTFPP0Q-K9InOLb2jEkZWQI4YukaS1NNA-UCj9oNAkqIZuyo9Uua_ejWMKwlpyY82XdQ6wdrvCZDQF0GPekFqyTwTVGLS8v6l2SjWSWxA4zl8G7plm_kkYiqfJkHwrZI7q6ZzMWw4xowG3VTes3Ukkt2ax0IBJGs60pICy-lpmkZM6XfO8lw69tOfikPMi3YUp_gvm6_UqikTQoN9_670sb0eiqxBR_xDBtJQj2aFqSa6r2_3Pr3s0zHruVVDrwm0X5oOtU_HrkQWHA9wTUpnjwR1U4K_UJfn_xmMA",
+    "response": "<Response [200]>",
+    "result": {
+        "_id": "64b01c5b6349f3556a84d93c",
+        "username": "ejemplo",
+        "password": "65f2b43a5aba29aade6cbd0d138265c7436dd5f3ca5efec2268a78534fa4dc17",
+        "email": "phg120504@gmail.com",
+        "phone": "6666666",
+        "status": 0,
+        "emailVerified": false,
+        "profile": "",
+        "description": "",
+        "token": "9UtESaxy",
+        "streamKey": "admin2"
+    }
+}
+Response:
+{'error': 'Usuario o contraseña incorrectos', 'result': False, 'status': 401}
+
+
+<------------------------------------------------------->

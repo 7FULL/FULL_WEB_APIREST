@@ -1,0 +1,178 @@
+
+
+Date: 2023-10-23 08:54:20.006037
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '64c9280e5d727d66f83f315c',
+                  'description': '',
+                  'email': 'phermidagomez@gmail.com',
+                  'emailVerified': True,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': '',
+                  'status': 0,
+                  'streamkey': 'KGF9TH3l',
+                  'token': 'edfCiwx5wHK8pgxU',
+                  'username': 'Pablo Hermida'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-10-23 09:07:31.034517
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "1111111111",
+    "password": "6486",
+    "e": "SSL handshake failed: ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997),SSL handshake failed: ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997),SSL handshake failed: ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997), Timeout: 30s, Topology Description: <TopologyDescription id: 6536186716320a266692aa07, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>, <ServerDescription ('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>, <ServerDescription ('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>]>"
+}
+Response:
+{   'error': 'SSL handshake failed: '
+             'ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997),SSL handshake failed: '
+             'ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997),SSL handshake failed: '
+             'ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997), Timeout: 30s, Topology Description: '
+             '<TopologyDescription id: 6536186716320a266692aa07, '
+             'topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription '
+             "('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>]>",
+    'result': 'Error al actualizar el teléfono del usuario Pablo Hermida',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-10-23 09:09:28.695643
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "1111111111",
+    "password": "6486",
+    "e": "SSL handshake failed: ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997),SSL handshake failed: ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997),SSL handshake failed: ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997), Timeout: 30s, Topology Description: <TopologyDescription id: 65361bfd25a0ec52f8510e21, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>, <ServerDescription ('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>, <ServerDescription ('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:997)')>]>"
+}
+Response:
+{   'error': 'SSL handshake failed: '
+             'ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997),SSL handshake failed: '
+             'ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997),SSL handshake failed: '
+             'ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             '(_ssl.c:997), Timeout: 30s, Topology Description: '
+             '<TopologyDescription id: 65361bfd25a0ec52f8510e21, '
+             'topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription '
+             "('ac-jywpepu-shard-00-00.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-00.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-01.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-01.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>, <ServerDescription "
+             "('ac-jywpepu-shard-00-02.maizixh.mongodb.net', 27017) "
+             "server_type: Unknown, rtt: None, error=AutoReconnect('SSL "
+             'handshake failed: '
+             'ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: [SSL: '
+             'TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error '
+             "(_ssl.c:997)')>]>",
+    'result': 'Error al actualizar el teléfono del usuario Pablo Hermida',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-10-23 09:13:57.899269
+Called: updatePhone
+Args:
+{
+    "username": "Pablo Hermida",
+    "phone": "1111111111",
+    "password": "6486",
+    "result": {
+        "_id": "64c9280e5d727d66f83f315c",
+        "username": "Pablo Hermida",
+        "password": "e0e517c01217428d4b9279c78d0916a7b740bad14817e38ca803701d137b6511",
+        "email": "phermidagomez@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": true,
+        "profile": "",
+        "description": "",
+        "token": "edfCiwx5wHK8pgxU",
+        "streamkey": "KGF9TH3l"
+    }
+}
+Response:
+{'error': '', 'result': 'La contraseña no coincide', 'status': 400}
+
+
+<------------------------------------------------------->
+
+
+Date: 2023-10-23 09:29:04.888676
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "e": "ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: timed out"
+}
+Response:
+{   'error': 'ac-jywpepu-shard-00-02.maizixh.mongodb.net:27017: timed out',
+    'result': 'Error al obtener el usuario phermidagomez@gmail.com',
+    'status': 500}
+
+
+<------------------------------------------------------->

@@ -1,0 +1,700 @@
+
+
+Date: 2024-04-28 12:25:53.939956
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:28:57.928427
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:06.696008
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:07.047693
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-28T15:29:06.717Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:30.265044
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "cartel1",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:30.599975
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-28T15:29:30.281Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:45.560551
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "cartel1",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:29:45.958673
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "data": {
+        "cartel": "cartel2",
+        "purchaseDate": "2024-04-28T15:29:45.633Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel2/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:37.585491
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:37.952674
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-28T15:35:37.629Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:43.839781
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:44.249202
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "data": {
+        "cartel": "cartel2",
+        "purchaseDate": "2024-04-28T15:35:43.919Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel2/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:49.486995
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel3",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:49.899026
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel3",
+    "data": {
+        "cartel": "cartel3",
+        "purchaseDate": "2024-04-28T15:35:49.562Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel3/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:05.977079
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel4",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:06.357298
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel4",
+    "data": {
+        "cartel": "cartel4",
+        "purchaseDate": "2024-04-28T15:36:06.035Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel4/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:14.882731
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel5",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:15.281178
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel5",
+    "data": {
+        "cartel": "cartel5",
+        "purchaseDate": "2024-04-28T15:36:14.947Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel5/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:37:27.803152
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:37:28.139343
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "data": {
+        "cartel": "cartel2",
+        "purchaseDate": "2024-04-28T15:37:27.819Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel2/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:37:57.165682
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "cartel1",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:37:57.562166
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-28T15:37:57.236Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:01.782287
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel2",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "cartel2",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:02.178439
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "data": {
+        "cartel": "cartel2",
+        "purchaseDate": "2024-04-28T15:38:01.849Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel2/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:08.545221
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel3",
+    "file": "<FileStorage: 'COMPONENTS.png' ('image/png')>",
+    "fname": "COMPONENTS.png",
+    "filename": "cartel3",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 37033
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:08.975774
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel3",
+    "data": {
+        "cartel": "cartel3",
+        "purchaseDate": "2024-04-28T15:38:08.623Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel3/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:13.853962
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel4",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "cartel4",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:14.248567
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel4",
+    "data": {
+        "cartel": "cartel4",
+        "purchaseDate": "2024-04-28T15:38:13.923Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel4/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:21.956969
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel5",
+    "file": "<FileStorage: 'WEBSOCKETS.png' ('image/png')>",
+    "fname": "WEBSOCKETS.png",
+    "filename": "cartel5",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 23896
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:38:22.353308
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel5",
+    "data": {
+        "cartel": "cartel5",
+        "purchaseDate": "2024-04-28T15:38:22.035Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel5/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->

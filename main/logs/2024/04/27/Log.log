@@ -1,0 +1,885 @@
+
+
+Date: 2024-04-27 11:27:41.099639
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 12:38:52.389295
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 12:41:14.780536
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:07:42.218840
+Called: savePhoto
+Args:
+{}
+Response:
+{'error': '', 'result': 'No se ha enviado ningun archivo', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:10:16.843500
+Called: savePhoto
+Args:
+{}
+Response:
+{'error': '', 'result': 'No se ha enviado ningun archivo', 'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:36:48.129375
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:36:56.894728
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:40:52.505076
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:41:39.901160
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:43:43.077863
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:45:41.551913
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:46:35.773174
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:47:58.490450
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:49:15.723370
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpg', 'jpeg', 'png'}",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:50:27.703877
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPONENTS.png' ('image/png')>",
+    "fname": "COMPONENTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:51:24.041671
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPONENTS.png' ('image/png')>",
+    "fname": "COMPONENTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpeg', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 37033
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:54:07.537035
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpeg', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:57:10.330262
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpeg', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:58:34.730706
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:59:04.439561
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:12:11.339626
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpg', 'jpeg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:14:04.679665
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'png', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:15:05.435884
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'png', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:18:02.929152
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:19:47.968977
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPONENTS.png' ('image/png')>",
+    "fname": "COMPONENTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpeg', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 37033
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:10:59.730894
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:14:22.984765
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:14:23.044957
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:16:10.123045
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:16:10.182307
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:20:03.424695
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'PAGES.png' ('image/png')>",
+    "fname": "PAGES.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 69626
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:20:03.469044
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:35:45.266010
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:35:45.617763
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:35:45.292Z",
+        "user": "{\"profile\":\"http://127.0.0.1:5000/static/users/7FULL.png\",\"name\":\"7FULL\",\"email\":\"phgfull@gmail.com\",\"phone\":\"000000000\",\"emailVerified\":false,\"description\":\"\"}"
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:36:32.926574
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:36:33.323414
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:36:33.000Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "e": "[Errno 17] File exists: 'static/publi/cartel1/data.json'"
+}
+Response:
+{   'error': "[Errno 17] File exists: 'static/publi/cartel1/data.json'",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:38:18.945402
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPLETE.png' ('image/png')>",
+    "fname": "COMPLETE.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpeg', 'jpg', 'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 338021
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:38:19.294967
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:38:18.968Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:39:36.602331
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'png', 'jpeg', 'jpg'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 7609
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:39:36.955195
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:39:36.637Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "e": "[Errno 17] File exists: 'static/publi/cartel1/data.json'"
+}
+Response:
+{   'error': "[Errno 17] File exists: 'static/publi/cartel1/data.json'",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 16:15:45.982045
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->

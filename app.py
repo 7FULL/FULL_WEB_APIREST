@@ -12,7 +12,8 @@ app = Flask(__name__)
 
 app.register_blueprint(user)
 
-CORS(app)
+cors = CORS()
+cors.init_app(app, resource={r"/api/*": {"origins": "*"}})
 
 connector = BBDD()  # Conexión a la BBDD de MongoDB
 
@@ -46,8 +47,6 @@ def ret(result, status=200, error=""):
         Logger.log_error(json_text, str(caller_args), caller_name)
 
     return text
-
-
 
 @app.route('/')
 def origin():

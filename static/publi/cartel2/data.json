@@ -1,0 +1,12 @@
+{
+    "cartel": "cartel2",
+    "purchaseDate": "2024-04-28T15:38:01.849Z",
+    "user": {
+        "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+        "name": "7FULL",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "emailVerified": false,
+        "description": ""
+    }
+}

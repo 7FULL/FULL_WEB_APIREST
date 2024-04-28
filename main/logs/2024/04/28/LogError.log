@@ -1,0 +1,102 @@
+
+
+Date: 2024-04-28 17:35:37.586528
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:43.840309
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:35:49.487527
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel3",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:05.977616
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel4",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:36:14.883270
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel5",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-28 17:37:27.803690
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel2",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->

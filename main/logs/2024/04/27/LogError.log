@@ -1,0 +1,276 @@
+
+
+Date: 2024-04-27 13:36:56.895282
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:40:52.505587
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:41:39.901668
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:43:43.078394
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:45:41.553019
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:46:35.773704
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:47:58.491022
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:49:15.724399
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'LAYOUTS.png' ('image/png')>",
+    "fname": "LAYOUTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpg', 'jpeg', 'png'}",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 13:50:27.704406
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'COMPONENTS.png' ('image/png')>",
+    "fname": "COMPONENTS.png",
+    "filename": "img",
+    "allowed_extensions": "{'jpg', 'png', 'jpeg'}",
+    "e": "list index out of range"
+}
+Response:
+{   'error': 'list index out of range',
+    'result': 'Error al guardar la foto',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 14:18:02.930757
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:14:23.045469
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:16:10.182835
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:20:03.469559
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "e": "415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'."
+}
+Response:
+{   'error': '415 Unsupported Media Type: Did not attempt to load JSON data '
+             "because the request Content-Type was not 'application/json'.",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:36:33.323939
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:36:33.000Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "e": "[Errno 17] File exists: 'static/publi/cartel1/data.json'"
+}
+Response:
+{   'error': "[Errno 17] File exists: 'static/publi/cartel1/data.json'",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-04-27 15:39:36.955195
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-04-27T13:39:36.637Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "e": "[Errno 17] File exists: 'static/publi/cartel1/data.json'"
+}
+Response:
+{   'error': "[Errno 17] File exists: 'static/publi/cartel1/data.json'",
+    'result': 'Error al guardar el cartel',
+    'status': 500}
+
+
+<------------------------------------------------------->

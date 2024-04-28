@@ -475,3 +475,74 @@ def passWordRecovery(username):
             return ret("No existe el usuario " + username, 404)
     else:
         return result
+
+
+@user.route('/api/publi/<string:cartel>', methods=['POST'])
+def savePhoto(cartel):
+    try:
+        file = None
+
+        for fname in request.files:
+            file = request.files.get(fname)
+
+        filename = cartel
+
+        if filename == '':  # Nombre de archivo vacio
+            return ret("El nombre del archivo no puede estar vacio", 400)
+
+        allowed_extensions = {'png'}
+
+        extension = file.filename.rsplit('.', 1)[1].lower()  # Obtener la extension del archivo
+
+        if extension not in allowed_extensions:
+            return ret("La extension " + extension + " no esta permitida, tiene que ser png", 400)
+
+        max_size = 1024 * 1024 * 5  # 5MB
+        size = len(file.read())
+
+        file.seek(0)  # Volver al inicio del archivo
+
+        if size > max_size:
+            return ret("El tamaño maximo permitido es de 5MB", 413)
+
+        file.save(f'static/publi/{cartel}/{filename}.{extension}')
+
+        return ret("Foto guardada correctamente")
+
+    except Exception as e:
+        return ret("Error al guardar la foto", 500, str(e))
+
+
+@user.route('/api/publi/<string:cartel>', methods=['GET'])
+def getPhoto(cartel):
+    try:
+        if os.path.exists(f'static/publi/{cartel}/img.png'):
+            return send_file(f'static/publi/{cartel}/img.png')
+        elif os.path.exists(f'static/publi/{cartel}/img.jpg'):
+            return send_file(f'static/publi/{cartel}/img.jpg')
+        elif os.path.exists(f'static/publi/{cartel}/img.jpeg'):
+            return send_file(f'static/publi/{cartel}/img.jpeg')
+        else:
+            return ret("No existe la foto", 404)
+
+    except Exception as e:
+        return ret("Error al obtener la foto", 500, str(e))
+
+
+@user.route('/api/publiJson/<string:cartel>', methods=['POST'])
+def saveCartelJson(cartel):
+    try:
+        data = request.json
+
+        # We check if the archive exists
+        if os.path.exists(f'static/publi/{cartel}/data.json'):
+            os.remove(f'static/publi/{cartel}/data.json')
+
+        with open(f'static/publi/{cartel}/data.json', 'x') as file:
+            json.dump(data, file, indent=4)
+
+        return ret("Cartel guardado correctamente")
+
+    except Exception as e:
+        return ret("Error al guardar el cartel", 500, str(e))
+

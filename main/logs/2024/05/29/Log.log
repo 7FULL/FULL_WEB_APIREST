@@ -1,0 +1,341 @@
+
+
+Date: 2024-05-29 13:37:10.070066
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'NlSej06d',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 13:37:18.850714
+Called: registerToken
+Args:
+{
+    "username": "7FULL",
+    "token_lenght": 8,
+    "email": true,
+    "token": "MWok4D3T",
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "baabbb93c698f23888c3396faba9f0bf1329af0447b2246a2afb1a1368792369",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "NlSej06d",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': 'Token del usuario 7FULL actualizado correctamente',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 13:41:06.566607
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 13:41:33.588246
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": null
+}
+Response:
+{   'error': '',
+    'result': 'No existe el usuario phermidagomez@gmail.com',
+    'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 13:41:37.230069
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:10:15.060544
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'NBX_Snapshot_2023-06-04_21-32-52-159.png' ('image/png')>",
+    "fname": "NBX_Snapshot_2023-06-04_21-32-52-159.png",
+    "filename": "cartel1",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 1046765
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:10:15.497919
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-05-29T12:10:15.176Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:10:40.122043
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:21:24.829281
+Called: savePhoto
+Args:
+{
+    "cartel": "cartel1",
+    "file": "<FileStorage: 'API.png' ('image/png')>",
+    "fname": "API.png",
+    "filename": "cartel1",
+    "allowed_extensions": "{'png'}",
+    "extension": "png",
+    "max_size": 5242880,
+    "size": 57668
+}
+Response:
+{'error': '', 'result': 'Foto guardada correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:21:25.157930
+Called: saveCartelJson
+Args:
+{
+    "cartel": "cartel1",
+    "data": {
+        "cartel": "cartel1",
+        "purchaseDate": "2024-05-29T12:21:24.836Z",
+        "user": {
+            "profile": "http://127.0.0.1:5000/static/users/7FULL.png",
+            "name": "7FULL",
+            "email": "phgfull@gmail.com",
+            "phone": "000000000",
+            "emailVerified": false,
+            "description": ""
+        }
+    },
+    "file": "<_io.TextIOWrapper name='static/publi/cartel1/data.json' mode='x' encoding='cp1252'>"
+}
+Response:
+{'error': '', 'result': 'Cartel guardado correctamente', 'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:21:43.463682
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phermidagomez@gmail.com",
+    "email": false,
+    "result": null
+}
+Response:
+{   'error': '',
+    'result': 'No existe el usuario phermidagomez@gmail.com',
+    'status': 404}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-29 14:21:55.684236
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->

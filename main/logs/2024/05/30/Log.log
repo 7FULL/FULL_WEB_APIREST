@@ -1,0 +1,924 @@
+
+
+Date: 2024-05-30 18:38:59.389180
+Called: preguntar
+Args:
+{
+    "pregunta": "Cual es el proposito del documento",
+    "response": "El prop\u00f3sito del documento de tu Trabajo de Fin de Grado (TFG) es proporcionar una descripci\u00f3n detallada y exhaustiva del proyecto que has desarrollado. Espec\u00edficamente, este documento debe:\n\n1. **Presentar el Contexto y Justificaci\u00f3n del Proyecto**: Explicar por qu\u00e9 se ha elegido este proyecto, su relevancia en el campo de desarrollo de aplicaciones multiplataforma, y qu\u00e9 problemas o necesidades busca resolver.\n\n2. **Definir los Objetivos**: Especificar los objetivos generales y espec\u00edficos que pretendes alcanzar con el proyecto.\n\n3. **Describir la Metodolog\u00eda Utilizada**: Detallar los m\u00e9todos y t\u00e9cnicas que has empleado en el desarrollo del proyecto, incluyendo herramientas, lenguajes de programaci\u00f3n,"
+}
+Response:
+{   'error': '',
+    'result': 'El propósito del documento de tu Trabajo de Fin de Grado (TFG) '
+              'es proporcionar una descripción detallada y exhaustiva del '
+              'proyecto que has desarrollado. Específicamente, este documento '
+              'debe:\n'
+              '\n'
+              '1. **Presentar el Contexto y Justificación del Proyecto**: '
+              'Explicar por qué se ha elegido este proyecto, su relevancia en '
+              'el campo de desarrollo de aplicaciones multiplataforma, y qué '
+              'problemas o necesidades busca resolver.\n'
+              '\n'
+              '2. **Definir los Objetivos**: Especificar los objetivos '
+              'generales y específicos que pretendes alcanzar con el '
+              'proyecto.\n'
+              '\n'
+              '3. **Describir la Metodología Utilizada**: Detallar los métodos '
+              'y técnicas que has empleado en el desarrollo del proyecto, '
+              'incluyendo herramientas, lenguajes de programación,',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 18:40:42.987976
+Called: preguntar
+Args:
+{
+    "pregunta": "Cual es el proposito del documento",
+    "response": "Entiendo que usted est\u00e1 solicitando informaci\u00f3n sobre el prop\u00f3sito del documento de su Trabajo de Fin de Grado (TFG) en el grado de Desarrollo de Aplicaciones Multiplataforma. Aunque no puedo acceder directamente a archivos PDF o a los repositorios de GitHub, puedo ofrecer una visi\u00f3n general basada en la estructura t\u00edpica de un TFG en este campo.\n\nEl prop\u00f3sito del documento de su TFG generalmente incluye:\n\n1. **Presentaci\u00f3n del Proyecto**: Introducir el tema y el contexto del proyecto, explicando su relevancia y el problema que pretende resolver.\n\n2. **Objetivos**: Establecer los objetivos espec\u00edficos y generales del proyecto, proporcionando una gu\u00eda clara de lo que se espera lograr.\n\n3. **Metodolog\u00eda"
+}
+Response:
+{   'error': '',
+    'result': 'Entiendo que usted está solicitando información sobre el '
+              'propósito del documento de su Trabajo de Fin de Grado (TFG) en '
+              'el grado de Desarrollo de Aplicaciones Multiplataforma. Aunque '
+              'no puedo acceder directamente a archivos PDF o a los '
+              'repositorios de GitHub, puedo ofrecer una visión general basada '
+              'en la estructura típica de un TFG en este campo.\n'
+              '\n'
+              'El propósito del documento de su TFG generalmente incluye:\n'
+              '\n'
+              '1. **Presentación del Proyecto**: Introducir el tema y el '
+              'contexto del proyecto, explicando su relevancia y el problema '
+              'que pretende resolver.\n'
+              '\n'
+              '2. **Objetivos**: Establecer los objetivos específicos y '
+              'generales del proyecto, proporcionando una guía clara de lo que '
+              'se espera lograr.\n'
+              '\n'
+              '3. **Metodología',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 18:43:10.880487
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creador de la aplicacion",
+    "response": "El creador de la aplicaci\u00f3n es usted, Pablo Hermida G\u00f3mez. Usted es el autor del Trabajo de Fin de Grado del grado de Desarrollo de Aplicaciones Multiplataforma en el Instituto de Formaci\u00f3n Profesional de la Nebrija."
+}
+Response:
+{   'error': '',
+    'result': 'El creador de la aplicación es usted, Pablo Hermida Gómez. '
+              'Usted es el autor del Trabajo de Fin de Grado del grado de '
+              'Desarrollo de Aplicaciones Multiplataforma en el Instituto de '
+              'Formación Profesional de la Nebrija.',
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 19:41:00.315884
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creador de la app",
+    "id": "1",
+    "response": "[\"[TextContentBlock(text=Text(annotations=[], value='Quien es el creador de la app'), type='text')]\", \"[TextContentBlock(text=Text(annotations=[FileCitationAnnotation(end_index=62, file_citation=FileCitation(file_id='file-wPZl21RpV83q69hXNhMtUEB5', quote=None), start_index=50, text='\u30104:0\u2020source\u3011', type='file_citation')], value='El creador de la aplicaci\u00f3n es Pablo Hermida G\u00f3mez\u30104:0\u2020source\u3011.'), type='text')]\"]"
+}
+Response:
+
+
+Date: 2024-05-30 19:44:38.252016
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creador de la app",
+    "id": "1",
+    "response": "['Quien es el creador de la app', 'La aplicaci\u00f3n fue creada por Pablo Hermida G\u00f3mez\u30104:0\u2020source\u3011\u30104:1\u2020source\u3011.']"
+}
+Response:
+
+
+Date: 2024-05-30 19:46:25.486195
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creador de la app",
+    "id": "1",
+    "response": "['Quien es el creador de la app', 'El creador de la aplicacin es Pablo Hermida Gmez4:0source.']"
+}
+Response:
+{   'error': '',
+    'result': [   'Quien es el creador de la app',
+                  'El creador de la aplicacin es Pablo Hermida Gmez4:0source.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 19:48:27.778744
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creador de la app",
+    "id": "1",
+    "response": "['Quien es el creador de la app', 'El creador de la aplicacin es Pablo Hermida Gmez4:0source.']"
+}
+Response:
+{   'error': '',
+    'result': [   'Quien es el creador de la app',
+                  'El creador de la aplicacin es Pablo Hermida Gmez4:0source.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 19:49:00.947159
+Called: preguntar
+Args:
+{
+    "pregunta": "Podrias no referenciar los documentos porfavor",
+    "id": "1",
+    "response": "['Quien es el creador de la app', 'El creador de la aplicacin es Pablo Hermida Gmez4:0source.', 'Podrias no referenciar los documentos porfavor', 'Claro, el creador de la aplicacin es Pablo Hermida Gmez.']"
+}
+Response:
+{   'error': '',
+    'result': [   'Quien es el creador de la app',
+                  'El creador de la aplicacin es Pablo Hermida Gmez4:0source.',
+                  'Podrias no referenciar los documentos porfavor',
+                  'Claro, el creador de la aplicacin es Pablo Hermida Gmez.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:06:42.517736
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:07:11.911860
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:08:10.415598
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:12:24.439562
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:13:40.748703
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:30:45.893001
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:31:36.812788
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:32:25.125605
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:34:34.305805
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:36:31.818203
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:38:10.245743
+Called: preguntar
+Args:
+{
+    "pregunta": "a",
+    "id": 0.7838344077394073,
+    "response": "['a', 'Gracias por la informacin, Pablo. Ahora que tengo acceso a la documentacin de tu TFG y los enlaces a los repositorios de GitHub, puedo asistirte mejor con las preguntas sobre tu trabajo. Por favor, indcame las preguntas especficas que tienes sobre tu TFG o el cdigo fuente, y con gusto te ayudar a responderlas.']"
+}
+Response:
+{   'error': '',
+    'result': [   'a',
+                  'Gracias por la informacin, Pablo. Ahora que tengo acceso a '
+                  'la documentacin de tu TFG y los enlaces a los repositorios '
+                  'de GitHub, puedo asistirte mejor con las preguntas sobre tu '
+                  'trabajo. Por favor, indcame las preguntas especficas que '
+                  'tienes sobre tu TFG o el cdigo fuente, y con gusto te '
+                  'ayudar a responderlas.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:39:04.473690
+Called: preguntar
+Args:
+{
+    "pregunta": "Como estas?",
+    "id": 0.7838344077394073,
+    "response": "['a', 'Gracias por la informacin, Pablo. Ahora que tengo acceso a la documentacin de tu TFG y los enlaces a los repositorios de GitHub, puedo asistirte mejor con las preguntas sobre tu trabajo. Por favor, indcame las preguntas especficas que tienes sobre tu TFG o el cdigo fuente, y con gusto te ayudar a responderlas.', 'Como estas?', 'Estoy funcionando correctamente, gracias por preguntar. En qu puedo ayudarle hoy con respecto a su trabajo de fin de grado?']"
+}
+Response:
+{   'error': '',
+    'result': [   'a',
+                  'Gracias por la informacin, Pablo. Ahora que tengo acceso a '
+                  'la documentacin de tu TFG y los enlaces a los repositorios '
+                  'de GitHub, puedo asistirte mejor con las preguntas sobre tu '
+                  'trabajo. Por favor, indcame las preguntas especficas que '
+                  'tienes sobre tu TFG o el cdigo fuente, y con gusto te '
+                  'ayudar a responderlas.',
+                  'Como estas?',
+                  'Estoy funcionando correctamente, gracias por preguntar. En '
+                  'qu puedo ayudarle hoy con respecto a su trabajo de fin de '
+                  'grado?'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:40:49.339387
+Called: getUserByNameOrEmail
+Args:
+{
+    "username": "phgfull@gmail.com",
+    "email": false,
+    "result": {
+        "_id": "66276e7dc9be3ad3de51b087",
+        "username": "7FULL",
+        "password": "SSSSSHHHH SECRET",
+        "email": "phgfull@gmail.com",
+        "phone": "000000000",
+        "status": 0,
+        "emailVerified": false,
+        "description": "",
+        "token": "MWok4D3T",
+        "profile": "static/users/7FULL.png"
+    }
+}
+Response:
+{   'error': '',
+    'result': {   '_id': '66276e7dc9be3ad3de51b087',
+                  'description': '',
+                  'email': 'phgfull@gmail.com',
+                  'emailVerified': False,
+                  'password': 'SSSSSHHHH SECRET',
+                  'phone': '000000000',
+                  'profile': 'static/users/7FULL.png',
+                  'status': 0,
+                  'token': 'MWok4D3T',
+                  'username': '7FULL'},
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:41:00.888070
+Called: preguntar
+Args:
+{
+    "pregunta": "Hola como estas",
+    "id": 0.7913407589339934,
+    "response": "['Hola como estas', 'Hola! Estoy bien, gracias por preguntar. En qu puedo ayudarle hoy con su trabajo de fin de grado?']"
+}
+Response:
+{   'error': '',
+    'result': [   'Hola como estas',
+                  'Hola! Estoy bien, gracias por preguntar. En qu puedo '
+                  'ayudarle hoy con su trabajo de fin de grado?'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:42:28.785910
+Called: preguntar
+Args:
+{
+    "pregunta": "Quien es el creado del TFG?",
+    "id": 0.7913407589339934,
+    "response": "['Hola como estas', 'Hola! Estoy bien, gracias por preguntar. En qu puedo ayudarle hoy con su trabajo de fin de grado?', 'Quien es el creado del TFG?', 'El creador del TFG es Pablo Hermida Gmez6:0source.']"
+}
+Response:
+{   'error': '',
+    'result': [   'Hola como estas',
+                  'Hola! Estoy bien, gracias por preguntar. En qu puedo '
+                  'ayudarle hoy con su trabajo de fin de grado?',
+                  'Quien es el creado del TFG?',
+                  'El creador del TFG es Pablo Hermida Gmez6:0source.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:43:08.446275
+Called: preguntar
+Args:
+{
+    "pregunta": "Podrias no hacer menciones a los documentos porfavoer",
+    "id": 0.7913407589339934,
+    "response": "['Hola como estas', 'Hola! Estoy bien, gracias por preguntar. En qu puedo ayudarle hoy con su trabajo de fin de grado?', 'Quien es el creado del TFG?', 'El creador del TFG es Pablo Hermida Gmez6:0source.', 'Podrias no hacer menciones a los documentos porfavoer', 'Por supuesto! El creador del TFG es usted, Pablo Hermida Gmez. Hay algo ms en lo que pueda ayudarle?']"
+}
+Response:
+{   'error': '',
+    'result': [   'Hola como estas',
+                  'Hola! Estoy bien, gracias por preguntar. En qu puedo '
+                  'ayudarle hoy con su trabajo de fin de grado?',
+                  'Quien es el creado del TFG?',
+                  'El creador del TFG es Pablo Hermida Gmez6:0source.',
+                  'Podrias no hacer menciones a los documentos porfavoer',
+                  'Por supuesto! El creador del TFG es usted, Pablo Hermida '
+                  'Gmez. Hay algo ms en lo que pueda ayudarle?'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:43:43.170397
+Called: preguntar
+Args:
+{
+    "pregunta": "a",
+    "id": 0.7913407589339934,
+    "response": "['Hola como estas', 'Hola! Estoy bien, gracias por preguntar. En qu puedo ayudarle hoy con su trabajo de fin de grado?', 'Quien es el creado del TFG?', 'El creador del TFG es Pablo Hermida Gmez6:0source.', 'Podrias no hacer menciones a los documentos porfavoer', 'Por supuesto! El creador del TFG es usted, Pablo Hermida Gmez. Hay algo ms en lo que pueda ayudarle?', 'a', 'Entendido. En qu ms puedo ayudarle hoy con su trabajo de fin de grado?']"
+}
+Response:
+{   'error': '',
+    'result': [   'Hola como estas',
+                  'Hola! Estoy bien, gracias por preguntar. En qu puedo '
+                  'ayudarle hoy con su trabajo de fin de grado?',
+                  'Quien es el creado del TFG?',
+                  'El creador del TFG es Pablo Hermida Gmez6:0source.',
+                  'Podrias no hacer menciones a los documentos porfavoer',
+                  'Por supuesto! El creador del TFG es usted, Pablo Hermida '
+                  'Gmez. Hay algo ms en lo que pueda ayudarle?',
+                  'a',
+                  'Entendido. En qu ms puedo ayudarle hoy con su trabajo de '
+                  'fin de grado?'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:45:54.928405
+Called: preguntar
+Args:
+{
+    "pregunta": "a",
+    "id": 0.5368715735759393,
+    "response": "['a', 'Entendido, Pablo. He revisado la documentacin de tu TFG. Puedes preguntarme cualquier cosa sobre tu proyecto, ya sea sobre la documentacin o el cdigo fuente. Aqu tienes un resumen de lo que he encontrado hasta ahora:\\n\\n### Objetivos del Proyecto\\n**Objetivo principal:**\\n- Desarrollar un metaverso en el cual se pueden experimentar diferentes aventuras a travs de portales, socializar y comunicarse con otros jugadores, y permitir a las empresas publicitarse dentro del metaverso4:1source4:8source.\\n\\n**Objetivos secundarios:**\\n- Aplicacin compatible con gafas de realidad virtual.\\n- Sistema de comunicacin por voz de proximidad.\\n- Sistema de contactos dentro del metaverso.\\n- Diferentes portales con aventuras.\\n- Pgina web para que las empresas reserven carteles publicitarios.\\n- Sistema de retransmisin en vivo.\\n- Sistema de inventario.\\n- Servidores capaces de soportar la carga de red y almacenamiento necesarios.\\n- Sistema de registro e inicio de sesin para usuarios y empresas tanto en el metaverso como en la pgina web4:8source4:9source.\\n\\n### Tecnologas Utilizadas\\n- **Node.js** y **Express** para el backend de la aplicacin de escritorio y la web.\\n- **Unity** y **C#** para el desarrollo de la aplicacin de realidad virtual y escritorio.\\n- **Agora** para las llamadas de voz.\\n- **Photon pun 2** para el multijugador.\\n- **MongoDB** y **Atlas** para la base de datos.\\n- **Docker** y **Docker-Compose** para la organizacin y despliegue de contenedores.\\n- **Websockets** y **Socket.io** para la comunicacin en tiempo real.\\n- **Vue 3**, **Quasar framework**, y **Vime** para la web.\\n- **Python** y **Flask** para la API REST de la web 4:10source4:13source4:14source4:16source.\\n\\n### Estructura del Proyecto\\n- **Aplicacin de escritorio/VR:** Principal servicio del desarrollo donde los usuarios interactan en el metaverso.\\n- **Backend de la aplicacin:** Manejo de datos de la aplicacin de escritorio en la base de datos.\\n- **Base de datos:** Almacenamiento de datos de usuarios, streamings, y publicidad.\\n- **Servidor RMTP/HLS:** Retransmisin en directo.\\n- **Servidor de autorizacin:** Autenticacin para retransmisiones.\\n- **Pgina web:** Visualizacin de streamings y reserva de carteles publicitarios.\\n- **Backend de la web:** Gestin de informacin de empresas y publicidad.\\n- **Servidor de Websockets:** Provee comunicacin en tiempo real y bidireccional4:11source4:12source4:13source4:14source.\\n\\nSi necesita informacin ms especfica o tiene alguna pregunta en particular, por favor hgamelo saber.']"
+}
+Response:
+{   'error': '',
+    'result': [   'a',
+                  'Entendido, Pablo. He revisado la documentacin de tu TFG. '
+                  'Puedes preguntarme cualquier cosa sobre tu proyecto, ya sea '
+                  'sobre la documentacin o el cdigo fuente. Aqu tienes un '
+                  'resumen de lo que he encontrado hasta ahora:\n'
+                  '\n'
+                  '### Objetivos del Proyecto\n'
+                  '**Objetivo principal:**\n'
+                  '- Desarrollar un metaverso en el cual se pueden '
+                  'experimentar diferentes aventuras a travs de portales, '
+                  'socializar y comunicarse con otros jugadores, y permitir a '
+                  'las empresas publicitarse dentro del '
+                  'metaverso4:1source4:8source.\n'
+                  '\n'
+                  '**Objetivos secundarios:**\n'
+                  '- Aplicacin compatible con gafas de realidad virtual.\n'
+                  '- Sistema de comunicacin por voz de proximidad.\n'
+                  '- Sistema de contactos dentro del metaverso.\n'
+                  '- Diferentes portales con aventuras.\n'
+                  '- Pgina web para que las empresas reserven carteles '
+                  'publicitarios.\n'
+                  '- Sistema de retransmisin en vivo.\n'
+                  '- Sistema de inventario.\n'
+                  '- Servidores capaces de soportar la carga de red y '
+                  'almacenamiento necesarios.\n'
+                  '- Sistema de registro e inicio de sesin para usuarios y '
+                  'empresas tanto en el metaverso como en la pgina '
+                  'web4:8source4:9source.\n'
+                  '\n'
+                  '### Tecnologas Utilizadas\n'
+                  '- **Node.js** y **Express** para el backend de la aplicacin '
+                  'de escritorio y la web.\n'
+                  '- **Unity** y **C#** para el desarrollo de la aplicacin de '
+                  'realidad virtual y escritorio.\n'
+                  '- **Agora** para las llamadas de voz.\n'
+                  '- **Photon pun 2** para el multijugador.\n'
+                  '- **MongoDB** y **Atlas** para la base de datos.\n'
+                  '- **Docker** y **Docker-Compose** para la organizacin y '
+                  'despliegue de contenedores.\n'
+                  '- **Websockets** y **Socket.io** para la comunicacin en '
+                  'tiempo real.\n'
+                  '- **Vue 3**, **Quasar framework**, y **Vime** para la web.\n'
+                  '- **Python** y **Flask** para la API REST de la web '
+                  '4:10source4:13source4:14source4:16source.\n'
+                  '\n'
+                  '### Estructura del Proyecto\n'
+                  '- **Aplicacin de escritorio/VR:** Principal servicio del '
+                  'desarrollo donde los usuarios interactan en el metaverso.\n'
+                  '- **Backend de la aplicacin:** Manejo de datos de la '
+                  'aplicacin de escritorio en la base de datos.\n'
+                  '- **Base de datos:** Almacenamiento de datos de usuarios, '
+                  'streamings, y publicidad.\n'
+                  '- **Servidor RMTP/HLS:** Retransmisin en directo.\n'
+                  '- **Servidor de autorizacin:** Autenticacin para '
+                  'retransmisiones.\n'
+                  '- **Pgina web:** Visualizacin de streamings y reserva de '
+                  'carteles publicitarios.\n'
+                  '- **Backend de la web:** Gestin de informacin de empresas y '
+                  'publicidad.\n'
+                  '- **Servidor de Websockets:** Provee comunicacin en tiempo '
+                  'real y '
+                  'bidireccional4:11source4:12source4:13source4:14source.\n'
+                  '\n'
+                  'Si necesita informacin ms especfica o tiene alguna pregunta '
+                  'en particular, por favor hgamelo saber.'],
+    'status': 200}
+
+
+<------------------------------------------------------->
+
+
+Date: 2024-05-30 20:46:43.703179
+Called: preguntar
+Args:
+{
+    "pregunta": "Podrias hacerme una lista de las 5 mejores tecnologias que se han usado",
+    "id": 0.5368715735759393,
+    "response": "['a', 'Entendido, Pablo. He revisado la documentacin de tu TFG. Puedes preguntarme cualquier cosa sobre tu proyecto, ya sea sobre la documentacin o el cdigo fuente. Aqu tienes un resumen de lo que he encontrado hasta ahora:\\n\\n### Objetivos del Proyecto\\n**Objetivo principal:**\\n- Desarrollar un metaverso en el cual se pueden experimentar diferentes aventuras a travs de portales, socializar y comunicarse con otros jugadores, y permitir a las empresas publicitarse dentro del metaverso4:1source4:8source.\\n\\n**Objetivos secundarios:**\\n- Aplicacin compatible con gafas de realidad virtual.\\n- Sistema de comunicacin por voz de proximidad.\\n- Sistema de contactos dentro del metaverso.\\n- Diferentes portales con aventuras.\\n- Pgina web para que las empresas reserven carteles publicitarios.\\n- Sistema de retransmisin en vivo.\\n- Sistema de inventario.\\n- Servidores capaces de soportar la carga de red y almacenamiento necesarios.\\n- Sistema de registro e inicio de sesin para usuarios y empresas tanto en el metaverso como en la pgina web4:8source4:9source.\\n\\n### Tecnologas Utilizadas\\n- **Node.js** y **Express** para el backend de la aplicacin de escritorio y la web.\\n- **Unity** y **C#** para el desarrollo de la aplicacin de realidad virtual y escritorio.\\n- **Agora** para las llamadas de voz.\\n- **Photon pun 2** para el multijugador.\\n- **MongoDB** y **Atlas** para la base de datos.\\n- **Docker** y **Docker-Compose** para la organizacin y despliegue de contenedores.\\n- **Websockets** y **Socket.io** para la comunicacin en tiempo real.\\n- **Vue 3**, **Quasar framework**, y **Vime** para la web.\\n- **Python** y **Flask** para la API REST de la web 4:10source4:13source4:14source4:16source.\\n\\n### Estructura del Proyecto\\n- **Aplicacin de escritorio/VR:** Principal servicio del desarrollo donde los usuarios interactan en el metaverso.\\n- **Backend de la aplicacin:** Manejo de datos de la aplicacin de escritorio en la base de datos.\\n- **Base de datos:** Almacenamiento de datos de usuarios, streamings, y publicidad.\\n- **Servidor RMTP/HLS:** Retransmisin en directo.\\n- **Servidor de autorizacin:** Autenticacin para retransmisiones.\\n- **Pgina web:** Visualizacin de streamings y reserva de carteles publicitarios.\\n- **Backend de la web:** Gestin de informacin de empresas y publicidad.\\n- **Servidor de Websockets:** Provee comunicacin en tiempo real y bidireccional4:11source4:12source4:13source4:14source.\\n\\nSi necesita informacin ms especfica o tiene alguna pregunta en particular, por favor hgamelo saber.', 'Podrias hacerme una lista de las 5 mejores tecnologias que se han usado', 'Claro, aqu tienes una lista de las 5 mejores tecnologas utilizadas en tu proyecto, basndome en su relevancia y su contribucin clave al desarrollo del metaverso:\\n\\n1. **Unity y C#:**\\n   - **Descripcin:** Unity es una plataforma de desarrollo de juegos muy popular que permite crear experiencias en 3D y realidad virtual. C# es el lenguaje de programacin principal utilizado en Unity.\\n   - **Contribucin:** Permite desarrollar la aplicacin de realidad virtual y de escritorio, proporcionando las herramientas necesarias para crear el entorno inmersivo del metaverso.\\n\\n2. **Node.js y Express:**\\n   - **Descripcin:** Node.js es un entorno de ejecucin para JavaScript en el servidor, y Express es un framework minimalista para Node.js que facilita la construccin de aplicaciones web y APIs.\\n   - **Contribucin:** Utilizado para el backend de la aplicacin de escritorio y la web, manejando la lgica del servidor y las interacciones con la base de datos.\\n\\n3. **Photon PUN 2:**\\n   - **Descripcin:** Photon Unity Networking (PUN) 2 es una solucin de red para juegos multijugador en tiempo real.\\n   - **Contribucin:** Facilita la implementacin de funcionalidades multijugador, permitiendo a los usuarios interactuar en el metaverso en tiempo real.\\n\\n4. **MongoDB y Atlas:**\\n   - **Descripcin:** MongoDB es una base de datos NoSQL que almacena datos en formato JSON, y Atlas es el servicio de base de datos en la nube de MongoDB.\\n   - **Contribucin:** Proporciona una solucin escalable y flexible para el almacenamiento de datos de usuarios, streamings y publicidad.\\n\\n5. **Agora:**\\n   - **Descripcin:** Agora es una plataforma que ofrece servicios de comunicacin en tiempo real, incluyendo llamadas de voz y video.\\n   - **Contribucin:** Implementa el sistema de comunicacin por voz de proximidad, mejorando la interactividad y la inmersin dentro del metaverso.\\n\\nEstas tecnologas son fundamentales para la funcionalidad y la experiencia del usuario en tu proyecto de metaverso. Si necesitas ms detalles sobre alguna de estas tecnologas o cualquier otra parte del proyecto, no dudes en pedirlo.']"
+}
+Response:
+{   'error': '',
+    'result': [   'a',
+                  'Entendido, Pablo. He revisado la documentacin de tu TFG. '
+                  'Puedes preguntarme cualquier cosa sobre tu proyecto, ya sea '
+                  'sobre la documentacin o el cdigo fuente. Aqu tienes un '
+                  'resumen de lo que he encontrado hasta ahora:\n'
+                  '\n'
+                  '### Objetivos del Proyecto\n'
+                  '**Objetivo principal:**\n'
+                  '- Desarrollar un metaverso en el cual se pueden '
+                  'experimentar diferentes aventuras a travs de portales, '
+                  'socializar y comunicarse con otros jugadores, y permitir a '
+                  'las empresas publicitarse dentro del '
+                  'metaverso4:1source4:8source.\n'
+                  '\n'
+                  '**Objetivos secundarios:**\n'
+                  '- Aplicacin compatible con gafas de realidad virtual.\n'
+                  '- Sistema de comunicacin por voz de proximidad.\n'
+                  '- Sistema de contactos dentro del metaverso.\n'
+                  '- Diferentes portales con aventuras.\n'
+                  '- Pgina web para que las empresas reserven carteles '
+                  'publicitarios.\n'
+                  '- Sistema de retransmisin en vivo.\n'
+                  '- Sistema de inventario.\n'
+                  '- Servidores capaces de soportar la carga de red y '
+                  'almacenamiento necesarios.\n'
+                  '- Sistema de registro e inicio de sesin para usuarios y '
+                  'empresas tanto en el metaverso como en la pgina '
+                  'web4:8source4:9source.\n'
+                  '\n'
+                  '### Tecnologas Utilizadas\n'
+                  '- **Node.js** y **Express** para el backend de la aplicacin '
+                  'de escritorio y la web.\n'
+                  '- **Unity** y **C#** para el desarrollo de la aplicacin de '
+                  'realidad virtual y escritorio.\n'
+                  '- **Agora** para las llamadas de voz.\n'
+                  '- **Photon pun 2** para el multijugador.\n'
+                  '- **MongoDB** y **Atlas** para la base de datos.\n'
+                  '- **Docker** y **Docker-Compose** para la organizacin y '
+                  'despliegue de contenedores.\n'
+                  '- **Websockets** y **Socket.io** para la comunicacin en '
+                  'tiempo real.\n'
+                  '- **Vue 3**, **Quasar framework**, y **Vime** para la web.\n'
+                  '- **Python** y **Flask** para la API REST de la web '
+                  '4:10source4:13source4:14source4:16source.\n'
+                  '\n'
+                  '### Estructura del Proyecto\n'
+                  '- **Aplicacin de escritorio/VR:** Principal servicio del '
+                  'desarrollo donde los usuarios interactan en el metaverso.\n'
+                  '- **Backend de la aplicacin:** Manejo de datos de la '
+                  'aplicacin de escritorio en la base de datos.\n'
+                  '- **Base de datos:** Almacenamiento de datos de usuarios, '
+                  'streamings, y publicidad.\n'
+                  '- **Servidor RMTP/HLS:** Retransmisin en directo.\n'
+                  '- **Servidor de autorizacin:** Autenticacin para '
+                  'retransmisiones.\n'
+                  '- **Pgina web:** Visualizacin de streamings y reserva de '
+                  'carteles publicitarios.\n'
+                  '- **Backend de la web:** Gestin de informacin de empresas y '
+                  'publicidad.\n'
+                  '- **Servidor de Websockets:** Provee comunicacin en tiempo '
+                  'real y '
+                  'bidireccional4:11source4:12source4:13source4:14source.\n'
+                  '\n'
+                  'Si necesita informacin ms especfica o tiene alguna pregunta '
+                  'en particular, por favor hgamelo saber.',
+                  'Podrias hacerme una lista de las 5 mejores tecnologias que '
+                  'se han usado',
+                  'Claro, aqu tienes una lista de las 5 mejores tecnologas '
+                  'utilizadas en tu proyecto, basndome en su relevancia y su '
+                  'contribucin clave al desarrollo del metaverso:\n'
+                  '\n'
+                  '1. **Unity y C#:**\n'
+                  '   - **Descripcin:** Unity es una plataforma de desarrollo '
+                  'de juegos muy popular que permite crear experiencias en 3D '
+                  'y realidad virtual. C# es el lenguaje de programacin '
+                  'principal utilizado en Unity.\n'
+                  '   - **Contribucin:** Permite desarrollar la aplicacin de '
+                  'realidad virtual y de escritorio, proporcionando las '
+                  'herramientas necesarias para crear el entorno inmersivo del '
+                  'metaverso.\n'
+                  '\n'
+                  '2. **Node.js y Express:**\n'
+                  '   - **Descripcin:** Node.js es un entorno de ejecucin para '
+                  'JavaScript en el servidor, y Express es un framework '
+                  'minimalista para Node.js que facilita la construccin de '
+                  'aplicaciones web y APIs.\n'
+                  '   - **Contribucin:** Utilizado para el backend de la '
+                  'aplicacin de escritorio y la web, manejando la lgica del '
+                  'servidor y las interacciones con la base de datos.\n'
+                  '\n'
+                  '3. **Photon PUN 2:**\n'
+                  '   - **Descripcin:** Photon Unity Networking (PUN) 2 es una '
+                  'solucin de red para juegos multijugador en tiempo real.\n'
+                  '   - **Contribucin:** Facilita la implementacin de '
+                  'funcionalidades multijugador, permitiendo a los usuarios '
+                  'interactuar en el metaverso en tiempo real.\n'
+                  '\n'
+                  '4. **MongoDB y Atlas:**\n'
+                  '   - **Descripcin:** MongoDB es una base de datos NoSQL que '
+                  'almacena datos en formato JSON, y Atlas es el servicio de '
+                  'base de datos en la nube de MongoDB.\n'
+                  '   - **Contribucin:** Proporciona una solucin escalable y '
+                  'flexible para el almacenamiento de datos de usuarios, '
+                  'streamings y publicidad.\n'
+                  '\n'
+                  '5. **Agora:**\n'
+                  '   - **Descripcin:** Agora es una plataforma que ofrece '
+                  'servicios de comunicacin en tiempo real, incluyendo '
+                  'llamadas de voz y video.\n'
+                  '   - **Contribucin:** Implementa el sistema de comunicacin '
+                  'por voz de proximidad, mejorando la interactividad y la '
+                  'inmersin dentro del metaverso.\n'
+                  '\n'
+                  'Estas tecnologas son fundamentales para la funcionalidad y '
+                  'la experiencia del usuario en tu proyecto de metaverso. Si '
+                  'necesitas ms detalles sobre alguna de estas tecnologas o '
+                  'cualquier otra parte del proyecto, no dudes en pedirlo.'],
+    'status': 200}
+
+
+<------------------------------------------------------->

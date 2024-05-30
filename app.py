@@ -1,6 +1,7 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 from main.BBDD.conecctor import BBDD
+from main.blueprints.iaEndpoints import ia
 from main.blueprints.userEndpoints import user
 from main.managers.mailManager import EmailManager
 from main.logs.log import Logger
@@ -11,6 +12,7 @@ import inspect
 app = Flask(__name__)
 
 app.register_blueprint(user)
+app.register_blueprint(ia)
 
 cors = CORS()
 cors.init_app(app, resource={r"/api/*": {"origins": "*"}})

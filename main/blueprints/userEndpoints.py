@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from flask import Blueprint, request, jsonify, request, send_file
 import os
 from main.BBDD.conecctor import BBDD
@@ -545,4 +547,40 @@ def saveCartelJson(cartel):
 
     except Exception as e:
         return ret("Error al guardar el cartel", 500, str(e))
+
+
+# This functions returns all the dates of the publicities
+@user.route('/api/getDates', methods=['GET'])
+def getDates():
+    try:
+        # We read all the data.json inside all the folders
+        dates = []
+
+        for root, dirs, files in os.walk("static/publi"):
+            for file in files:
+                if file == "data.json":
+                    with open(os.path.join(root, file), 'r') as f:
+                        data = json.load(f)
+                        date = data["purchaseDate"]
+
+                        # If the date is after today we add it and available is true
+                        if date > datetime.now().strftime("%Y-%m-%d"):
+                            newData = {
+                                "date": date,
+                                "available": False
+                            }
+                            dates.append(newData)
+                        else:
+                            newData = {
+                                "date": date,
+                                "available": True
+                            }
+                            dates.append(newData)
+
+        return ret(dates)
+
+
+
+    except Exception as e:
+        return ret("Error al obtener las fechas", 500, str(e))
 
